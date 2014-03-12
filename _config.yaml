@@ -1,0 +1,4 @@
+pygments: true
+url: http://jujhar.com
+permalink: pretty
+exclude: ['README.md']
