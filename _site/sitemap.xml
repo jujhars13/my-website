@@ -2,7 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>http://jujhar.com/</loc>
-        <lastmod>2015-01-06</lastmod>
+        <lastmod>2015-05-09</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://jujhar.com/2015/05/12/aws-user-group-birmingham/</loc>
+        <lastmod>2015-05-12</lastmod>
     </url>
     
     <url>
