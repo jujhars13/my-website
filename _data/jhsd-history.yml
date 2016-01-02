@@ -1,0 +1,28 @@
+- date: 1360
+  title: First Entry
+  intro: "The world is very different ever since the robotic uprising of the mid-nineties."
+  description: "<p>Yes, affirmative.</p>
+               <p>Unless its a more colloquial situation with a few robo friends.</p>
+               <p>There is only one type of dance, the robot.</p>
+               <p>And the robo-boogie.</p>
+               <p>Oh yes, two kinds of dances.</p>
+              <blockquote>
+                     <p>6 billion people live in cities—the population of the entire world at the turn of the century.</p>
+                 </blockquote>
+                 <blockquote>
+                     <p>Earth now home to 2 billion people age 60 and over.</p>
+                 </blockquote>"
+  media:
+    image: event-cars.jpg
+
+
+- date: 1980
+  title: Second Entry
+  intro: "The world is very different ever since the robotic uprising of the mid-nineties. There is no more unhappiness."
+
+  description: This is the second historical entry
+
+- date: 2014
+  title: Tesco da Saka
+  intro: "The world is very different ever since the robotic uprising of the mid-nineties. There is no more unhappiness."
+  description: This is when billo went to tesco in the rain to get dogfood for jackie ...
