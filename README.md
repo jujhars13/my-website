@@ -5,9 +5,11 @@ My website
 
 Because vim and jekyll (and now docker) are the best cms tools out there
 
-### Buidling
+### Building
 ```bash
 docker run --rm -v $(pwd):/srv/jekyll -p 127.0.0.1:4000:4000 \
   jekyll/jekyll jekyll build
+  
+  docker run --rm --label=jekyll --volume=$(pwd):/srv/jekyll -it -p 127.0.0.1:4000:4000 jekyll/jekyll
 ```
 
