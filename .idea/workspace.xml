@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="831c2e63-6cfa-4e44-ad07-da75bbb47d3a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/jhsd-history/js/jquery-1.9.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jhsd-history/js/jquery-1.9.1.min.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/jhsd-history/index.html" afterPath="$PROJECT_DIR$/_site/jhsd-history/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jhsd-history/index.html" afterPath="$PROJECT_DIR$/jhsd-history/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_data/jhsd-history.yml" afterPath="$PROJECT_DIR$/_data/jhsd-history.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/jhsd-history/js/main.js" afterPath="$PROJECT_DIR$/_site/jhsd-history/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jhsd-history/js/main.js" afterPath="$PROJECT_DIR$/jhsd-history/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/sitemap.xml" afterPath="$PROJECT_DIR$/_site/sitemap.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sitemap.xml" afterPath="$PROJECT_DIR$/sitemap.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/jhsd-history/css/style.css" afterPath="$PROJECT_DIR$/_site/jhsd-history/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jhsd-history/css/style.css" afterPath="$PROJECT_DIR$/jhsd-history/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -67,10 +60,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jhsd-history/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.26986754">
+              <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jhsd-history/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.06168831">
+            <state vertical-scroll-proportion="17.592592">
               <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
               <folding />
             </state>
@@ -91,10 +94,11 @@
         <option value="$PROJECT_DIR$/_data/history.yml" />
         <option value="$PROJECT_DIR$/jhsd-history/css/timeliner-future.css" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/jhsd-history/css/style.css" />
         <option value="$PROJECT_DIR$/jhsd-history/js/main.js" />
         <option value="$PROJECT_DIR$/_data/jhsd-history.yml" />
         <option value="$PROJECT_DIR$/jhsd-history/index.html" />
+        <option value="$PROJECT_DIR$/sitemap.xml" />
+        <option value="$PROJECT_DIR$/jhsd-history/css/style.css" />
       </list>
     </option>
   </component>
@@ -474,18 +478,18 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jhsd-history/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="487" column="0" selection-start-line="487" selection-start-column="0" selection-end-line="487" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jhsd-history/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jhsd-history/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="17.592592">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -498,10 +502,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jhsd-history/index.html">
+    <entry file="file://$PROJECT_DIR$/sitemap.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06168831">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.44323483">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jhsd-history/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26986754">
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
           <folding />
         </state>
       </provider>
