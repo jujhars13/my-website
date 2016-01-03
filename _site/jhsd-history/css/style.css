@@ -97,6 +97,7 @@ header h1 {
   width: 4px;
   background: #d7e4ed;
 }
+
 @media only screen and (min-width: 1170px) {
   #cd-timeline {
     margin-top: 3em;
@@ -257,6 +258,7 @@ header h1 {
 .cd-timeline-content h2 {
   color: #303e49;
 }
+
 .cd-timeline-content p, .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
   font-size: 13px;
   font-size: 0.8125rem;
@@ -275,6 +277,7 @@ header h1 {
   color: white;
   border-radius: 0.25em;
 }
+
 .no-touch .cd-timeline-content .cd-read-more:hover {
   background-color: #bac4cb;
 }
@@ -293,6 +296,7 @@ header h1 {
   border: 7px solid transparent;
   border-right: 7px solid white;
 }
+
 @media only screen and (min-width: 768px) {
   .cd-timeline-content h2 {
     font-size: 20px;
