@@ -3,7 +3,7 @@ markdown: kramdown
 author: Jujhar Singh
 url: https://jujhar.com
 permalink: pretty
-exclude: ['README.md']
+exclude: ['README.md','_config.yaml','.gitignore','/.git']
 
 compress_html:
   clippings: all
