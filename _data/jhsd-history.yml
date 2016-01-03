@@ -1,25 +1,27 @@
-- date: 1360
-  title: First Entry
-  description: "<p>Yes, affirmative.</p>
-               <p>Unless its a more colloquial situation with a few robo friends.</p>
-               <p>There is only one type of dance, the robot.</p>
-               <p>And the robo-boogie.</p>
-               <p>Oh yes, two kinds of dances.</p>
-              <blockquote>
-                     <p>6 billion people live in cities—the population of the entire world at the turn of the century.</p>
-                 </blockquote>
-                 <blockquote>
-                     <p>Earth now home to 2 billion people age 60 and over.</p>
-                 </blockquote>"
+- date: 2500-1500 BC
+  title: Pre Aryan civilised (Indus) Society
+  description: "A bronze age civilisation that had settled in the fertile indus valley"
   media:
-    image: event-cars.jpg
-    image: event-cars.jpg
+    image: indus-valley-civilisation.jpg
 
+- date: 1500 BC
+  title: Arrival of Aryans and Rise of Bhramanism
+  description: Arayan's arrive from modern day Ukraine into North Indian and settle.  They create a caste system to place themselves above the Dravidian natives which forms the basis of what we know as modern Hindusim
+  media:
+      image: bhramanism.jpg
 
-- date: 1980
-  title: Second Entry
-  description: This is the second historical entry
+- date: 500 - 200 BC
+  title: Persian and Greek Invaders
+  description: First come the Persians under Darius and then follow the Greeks under Alexander the Great.
 
-- date: 2014
-  title: Tesco da Saka
-  description: This is when billo went to tesco in the rain to get dogfood for jackie.  Then billo got stuck in the rain, when he got home his wife was very angry and she proceeded to attack him with household implements.  Eventually he lost the battle and was incapacitated with by a rolling pin. This is when billo went to tesco in the rain to get dogfood for jackie.  Then billo got stuck in the rain, when he got home his wife was very angry and she proceeded to attack him with household implements.  Eventually he lost the battle and was incapacitated with by a rolling pin.This is when billo went to tesco in the rain to get dogfood for jackie.  Then billo got stuck in the rain, when he got home his wife was very angry and she proceeded to attack him with household implements.  Eventually he lost the battle and was incapacitated with by a rolling pin.This is when billo went to tesco in the rain to get dogfood for jackie.  Then billo got stuck in the rain, when he got home his wife was very angry and she proceeded to attack him with household implements.  Eventually he lost the battle and was incapacitated with by a rolling pin.This is when billo went to tesco in the rain to get dogfood for jackie.  Then billo got stuck in the rain, when he got home his wife was very angry and she proceeded to attack him with household implements.  Eventually he lost the battle and was incapacitated with by a rolling pin.
+- date: 260 BC
+  title: The rise of Buddhism in India
+  description: Because of Emperor Asoka, Buddhism comes to dominate india with big focus in North India, particularly modern day Pakistan
+  media:
+    image: bhuddism.jpg
+
+- date: ~1000 AD
+  title: Arrival of Islam
+  description: Islam had been coming into India via traders since it's founding 500 years previous and there were small violent incursions before that.  However circa 1000 AD we see a big push by Mahmud of Ghazni has the first big push opening up the floodgates for wave after wave of mauruding Muslim conquerors which have a massive hold on India all that way up to the first Sikh Kingdom in the 18th Century.
+  media:
+    image: islam.png

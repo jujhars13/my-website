@@ -19,7 +19,7 @@ jQuery(document).ready(function ($) {
     /**
      * readmore eplipsis links
      */
-    $('article').readmore({
+    $('article.readmore').readmore({
         speed: 60,
         collapsedHeight: 100,
         heightMargin: 12,
