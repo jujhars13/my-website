@@ -30,100 +30,142 @@
 
 - date: ~1400
   title: Rise of Sufism and the Bhakti Movement
-  description: TODO
+  description: Fusce nec volutpat odio. Proin iaculis pellentesque velit. Praesent finibus arcu sit amet nisl sollicitudin vehicula. Integer vulputate mollis quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac lobortis ipsum. Vestibulum venenatis hendrerit convallis. Integer ut dui vel sem euismod faucibus a in quam. Maecenas finibus pulvinar tristique. Pellentesque ante neque, commodo vitae accumsan sit amet, rhoncus nec ex.
   image: sufi.jpg
 
 - date: 1469
   title: Birth of Guru Nanak
-  description: TODO -
+  description: Fusce nec volutpat odio. Proin iaculis pellentesque velit. Praesent finibus arcu sit amet nisl sollicitudin vehicula. Integer vulputate mollis quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac lobortis ipsum. Vestibulum venenatis hendrerit convallis. Integer ut dui vel sem euismod faucibus a in quam. Maecenas finibus pulvinar tristique. Pellentesque ante neque, commodo vitae accumsan sit amet, rhoncus nec ex. -
   stories:
     - title: Quazi Rukandeen - the first Sikh Matyr
-  image: sufi.jpg
+  image: g1.jpg
 
 - date: ~1400
   title: Shaheedi of Guru Arjan Dev Ji
-  description: TODO
-  image: sufi.jpg
+  description: Fusce nec volutpat odio. Proin iaculis pellentesque velit. Praesent finibus arcu sit amet nisl sollicitudin vehicula. Integer vulputate mollis quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac lobortis ipsum. Vestibulum venenatis hendrerit convallis. Integer ut dui vel sem euismod faucibus a in quam. Maecenas finibus pulvinar tristique. Pellentesque ante neque, commodo vitae accumsan sit amet, rhoncus nec ex.
+  image: g5.jpg
 
 - date: ~1400
   title: First Sikh Battles under Guru Hargobind Sahib
-  description: TODO
+  description: Fusce nec volutpat odio. Proin iaculis pellentesque velit. Praesent finibus arcu sit amet nisl sollicitudin vehicula. Integer vulputate mollis quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac lobortis ipsum. Vestibulum venenatis hendrerit convallis. Integer ut dui vel sem euismod faucibus a in quam. Maecenas finibus pulvinar tristique. Pellentesque ante neque, commodo vitae accumsan sit amet, rhoncus nec ex.
   stories:
     - title: Pende Khan, the Guru's training partner
-  image: sufi.jpg
+    - title: Guru can re-write destiny
+    - title: Guru frees 52 prisoners of conscience
+    - title: Guru sahib invents the taus
+    - title: Guru Sahib and Mata Kaula
+  image: g6.jpg
 
 
 - date: ~1400
   title: Guru Har Rai Sahib becomes Guru
-  description: TODO
+  description: Ecologist, Healer, animal lover Fusce nec volutpat odio. Proin iaculis pellentesque velit. Praesent finibus arcu sit amet nisl sollicitudiHEAL vehicula. Integer vulputate mollis quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac lobortis ipsum. Vestibulum venenatis hendrerit convallis. Integer ut dui vel sem euismod faucibus a in quam. Maecenas finibus pulvinar tristique. Pellentesque ante neque, commodo vitae accumsan sit amet, rhoncus nec ex.
   stories:
     - title: Guru sahib breaking the flower
+  image: g7.jpg
+
+
+- date: 1699
+  title: Birth of the Khalsa
+  description: Fusce nec volutpat odio. Proin iaculis pellentesque velit. Praesent finibus arcu sit amet nisl sollicitudin vehicula. Integer vulputate mollis quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac lobortis ipsum. Vestibulum venenatis hendrerit convallis. Integer ut dui vel sem euismod faucibus a in quam. Maecenas finibus pulvinar tristique. Pellentesque ante neque, commodo vitae accumsan sit amet, rhoncus nec ex.
+  image: khalsa.jpg
+
+
+- date: ~1400
+  title: Sikh Battles and Shaheedi of Chaar Sahibzaade
+  description: Fusce nec volutpat odio. Proin iaculis pellentesque velit. Praesent finibus arcu sit amet nisl sollicitudin vehicula. Integer vulputate mollis quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac lobortis ipsum. Vestibulum venenatis hendrerit convallis. Integer ut dui vel sem euismod faucibus a in quam. Maecenas finibus pulvinar tristique. Pellentesque ante neque, commodo vitae accumsan sit amet, rhoncus nec ex.
+  stories:
+    - title: Shaheedi of the two younger Sahibzaade
+    - title: Bhai Bachiter Singh
   image: sufi.jpg
 
 
 - date: ~1400
-  title: Rise of Sufism and the Bhakti Movement
-  description: TODO
+  title: Last of the Human Gurus and the Instantiation of Sabd Guru
+  description: Fusce nec volutpat odio. Proin iaculis pellentesque velit. Praesent finibus arcu sit amet nisl sollicitudin vehicula. Integer vulputate mollis quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac lobortis ipsum. Vestibulum venenatis hendrerit convallis. Integer ut dui vel sem euismod faucibus a in quam. Maecenas finibus pulvinar tristique. Pellentesque ante neque, commodo vitae accumsan sit amet, rhoncus nec ex.
   image: sufi.jpg
 
 
 - date: ~1400
-  title: Rise of Sufism and the Bhakti Movement
-  description: TODO
+  title: Banda Singh Bahadur
+  description: Fusce nec volutpat odio. Proin iaculis pellentesque velit. Praesent finibus arcu sit amet nisl sollicitudin vehicula. Integer vulputate mollis quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac lobortis ipsum. Vestibulum venenatis hendrerit convallis. Integer ut dui vel sem euismod faucibus a in quam. Maecenas finibus pulvinar tristique. Pellentesque ante neque, commodo vitae accumsan sit amet, rhoncus nec ex.
   image: sufi.jpg
 
 
 - date: ~1400
-  title: Rise of Sufism and the Bhakti Movement
-  description: TODO
+  title: Smaller Holocaust
+  description: Fusce nec volutpat odio. Proin iaculis pellentesque velit. Praesent finibus arcu sit amet nisl sollicitudin vehicula. Integer vulputate mollis quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac lobortis ipsum. Vestibulum venenatis hendrerit convallis. Integer ut dui vel sem euismod faucibus a in quam. Maecenas finibus pulvinar tristique. Pellentesque ante neque, commodo vitae accumsan sit amet, rhoncus nec ex.
   image: sufi.jpg
 
 
 - date: ~1400
-  title: Rise of Sufism and the Bhakti Movement
-  description: TODO
+  title: Larger Holocaust
+  description: Fusce nec volutpat odio. Proin iaculis pellentesque velit. Praesent finibus arcu sit amet nisl sollicitudin vehicula. Integer vulputate mollis quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac lobortis ipsum. Vestibulum venenatis hendrerit convallis. Integer ut dui vel sem euismod faucibus a in quam. Maecenas finibus pulvinar tristique. Pellentesque ante neque, commodo vitae accumsan sit amet, rhoncus nec ex.
   image: sufi.jpg
 
 
 - date: ~1400
-  title: Rise of Sufism and the Bhakti Movement
-  description: TODO
+  title: Misl Period
+  description: Fusce nec volutpat odio. Proin iaculis pellentesque velit. Praesent finibus arcu sit amet nisl sollicitudin vehicula. Integer vulputate mollis quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac lobortis ipsum. Vestibulum venenatis hendrerit convallis. Integer ut dui vel sem euismod faucibus a in quam. Maecenas finibus pulvinar tristique. Pellentesque ante neque, commodo vitae accumsan sit amet, rhoncus nec ex.
   image: sufi.jpg
 
 
 - date: ~1400
-  title: Rise of Sufism and the Bhakti Movement
-  description: TODO
+  title: Sikh Kingdom
+  description: Fusce nec volutpat odio. Proin iaculis pellentesque velit. Praesent finibus arcu sit amet nisl sollicitudin vehicula. Integer vulputate mollis quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac lobortis ipsum. Vestibulum venenatis hendrerit convallis. Integer ut dui vel sem euismod faucibus a in quam. Maecenas finibus pulvinar tristique. Pellentesque ante neque, commodo vitae accumsan sit amet, rhoncus nec ex.
   image: sufi.jpg
 
 
 - date: ~1400
-  title: Rise of Sufism and the Bhakti Movement
-  description: TODO
+  title: Arrival of the British
+  description: Fusce nec volutpat odio. Proin iaculis pellentesque velit. Praesent finibus arcu sit amet nisl sollicitudin vehicula. Integer vulputate mollis quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac lobortis ipsum. Vestibulum venenatis hendrerit convallis. Integer ut dui vel sem euismod faucibus a in quam. Maecenas finibus pulvinar tristique. Pellentesque ante neque, commodo vitae accumsan sit amet, rhoncus nec ex.
   image: sufi.jpg
 
 
 - date: ~1400
-  title: Rise of Sufism and the Bhakti Movement
-  description: TODO
+  title: Fall of the Sikh Kingdom
+  description: Fusce nec volutpat odio. Proin iaculis pellentesque velit. Praesent finibus arcu sit amet nisl sollicitudin vehicula. Integer vulputate mollis quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac lobortis ipsum. Vestibulum venenatis hendrerit convallis. Integer ut dui vel sem euismod faucibus a in quam. Maecenas finibus pulvinar tristique. Pellentesque ante neque, commodo vitae accumsan sit amet, rhoncus nec ex.
   image: sufi.jpg
 
 
 - date: ~1400
-  title: Rise of Sufism and the Bhakti Movement
-  description: TODO
+  title: Singh Sabha Movement
+  description: Fusce nec volutpat odio. Proin iaculis pellentesque velit. Praesent finibus arcu sit amet nisl sollicitudin vehicula. Integer vulputate mollis quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac lobortis ipsum. Vestibulum venenatis hendrerit convallis. Integer ut dui vel sem euismod faucibus a in quam. Maecenas finibus pulvinar tristique. Pellentesque ante neque, commodo vitae accumsan sit amet, rhoncus nec ex.
   image: sufi.jpg
-
 
 - date: ~1400
-  title: Rise of Sufism and the Bhakti Movement
-  description: TODO
+  title: Akali Movement and Gurdwara Reform Act and rise of the SGPC
+  description: Fusce nec volutpat odio. Proin iaculis pellentesque velit. Praesent finibus arcu sit amet nisl sollicitudin vehicula. Integer vulputate mollis quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac lobortis ipsum. Vestibulum venenatis hendrerit convallis. Integer ut dui vel sem euismod faucibus a in quam. Maecenas finibus pulvinar tristique. Pellentesque ante neque, commodo vitae accumsan sit amet, rhoncus nec ex.
+  stories:
+    - title: Saka Panja Sahib
   image: sufi.jpg
 
-
-- date: ~1400
-  title: Rise of Sufism and the Bhakti Movement
-  description: TODO
+- date: 1904
+  title: Introduction of the Harmonium
+  description: Fusce nec volutpat odio. Proin iaculis pellentesque velit. Praesent finibus arcu sit amet nisl sollicitudin vehicula. Integer vulputate mollis quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac lobortis ipsum. Vestibulum venenatis hendrerit convallis. Integer ut dui vel sem euismod faucibus a in quam. Maecenas finibus pulvinar tristique. Pellentesque ante neque, commodo vitae accumsan sit amet, rhoncus nec ex.
   image: sufi.jpg
 
+- date: 1910
+  title: WW1 & WW2
+  description: Fusce nec volutpat odio. Proin iaculis pellentesque velit. Praesent finibus arcu sit amet nisl sollicitudin vehicula. Integer vulputate mollis quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac lobortis ipsum. Vestibulum venenatis hendrerit convallis. Integer ut dui vel sem euismod faucibus a in quam. Maecenas finibus pulvinar tristique. Pellentesque ante neque, commodo vitae accumsan sit amet, rhoncus nec ex.
+  image: sufi.jpg
 
+- date: 1946
+  title: Partition
+  description: Fusce nec volutpat odio. Proin iaculis pellentesque velit. Praesent finibus arcu sit amet nisl sollicitudin vehicula. Integer vulputate mollis quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac lobortis ipsum. Vestibulum venenatis hendrerit convallis. Integer ut dui vel sem euismod faucibus a in quam. Maecenas finibus pulvinar tristique. Pellentesque ante neque, commodo vitae accumsan sit amet, rhoncus nec ex.
+  image: sufi.jpg
+
+- date: ~1960
+  title: Major Exflux of Sikhs to Diaspora
+  description: Fusce nec volutpat odio. Proin iaculis pellentesque velit. Praesent finibus arcu sit amet nisl sollicitudin vehicula. Integer vulputate mollis quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac lobortis ipsum. Vestibulum venenatis hendrerit convallis. Integer ut dui vel sem euismod faucibus a in quam. Maecenas finibus pulvinar tristique. Pellentesque ante neque, commodo vitae accumsan sit amet, rhoncus nec ex.
+  image: sufi.jpg
+
+- date: ~1960 - 1984
+  title: Punjabi Subha and 1984 and Dehli Riots
+  description: Fusce nec volutpat odio. Proin iaculis pellentesque velit. Praesent finibus arcu sit amet nisl sollicitudin vehicula. Integer vulputate mollis quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac lobortis ipsum. Vestibulum venenatis hendrerit convallis. Integer ut dui vel sem euismod faucibus a in quam. Maecenas finibus pulvinar tristique. Pellentesque ante neque, commodo vitae accumsan sit amet, rhoncus nec ex.
+  image: 1984.jpg
+
+- date: ~1960 - Present
+  title: Modern Jathebandis
+  description: Fusce nec volutpat odio. Proin iaculis pellentesque velit. Praesent finibus arcu sit amet nisl sollicitudin vehicula. Integer vulputate mollis quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac lobortis ipsum. Vestibulum venenatis hendrerit convallis. Integer ut dui vel sem euismod faucibus a in quam. Maecenas finibus pulvinar tristique. Pellentesque ante neque, commodo vitae accumsan sit amet, rhoncus nec ex.
+  image: sufi.jpg
