@@ -64,6 +64,13 @@
     - title: Guru sahib breaking the flower
   image: g7.jpg
 
+- date: 1699
+  title: Martrydom of Guru Tegh Bahadur Sahib
+  description: Fusce nec volutpat odio. Proin iaculis pellentesque velit. Praesent finibus arcu sit amet nisl sollicitudin vehicula. Integer vulputate mollis quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac lobortis ipsum. Vestibulum venenatis hendrerit convallis. Integer ut dui vel sem euismod faucibus a in quam. Maecenas finibus pulvinar tristique. Pellentesque ante neque, commodo vitae accumsan sit amet, rhoncus nec ex.
+  stories:
+    - title: Bhai Mati Daas
+  image: bhai-mati-daas.jpg
+
 
 - date: 1699
   title: Birth of the Khalsa
@@ -77,88 +84,88 @@
   stories:
     - title: Shaheedi of the two younger Sahibzaade
     - title: Bhai Bachiter Singh
-  image: sufi.jpg
+  image: sahibzaade.jpg
 
 
 - date: ~1400
   title: Last of the Human Gurus and the Instantiation of Sabd Guru
   description: Fusce nec volutpat odio. Proin iaculis pellentesque velit. Praesent finibus arcu sit amet nisl sollicitudin vehicula. Integer vulputate mollis quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac lobortis ipsum. Vestibulum venenatis hendrerit convallis. Integer ut dui vel sem euismod faucibus a in quam. Maecenas finibus pulvinar tristique. Pellentesque ante neque, commodo vitae accumsan sit amet, rhoncus nec ex.
-  image: sufi.jpg
+  image: sabad-guru.jpg
 
 
 - date: ~1400
   title: Banda Singh Bahadur
   description: Fusce nec volutpat odio. Proin iaculis pellentesque velit. Praesent finibus arcu sit amet nisl sollicitudin vehicula. Integer vulputate mollis quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac lobortis ipsum. Vestibulum venenatis hendrerit convallis. Integer ut dui vel sem euismod faucibus a in quam. Maecenas finibus pulvinar tristique. Pellentesque ante neque, commodo vitae accumsan sit amet, rhoncus nec ex.
-  image: sufi.jpg
+  image: banda-singh.jpg
 
 
-- date: ~1400
+- date: 1746
   title: Smaller Holocaust
-  description: Fusce nec volutpat odio. Proin iaculis pellentesque velit. Praesent finibus arcu sit amet nisl sollicitudin vehicula. Integer vulputate mollis quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac lobortis ipsum. Vestibulum venenatis hendrerit convallis. Integer ut dui vel sem euismod faucibus a in quam. Maecenas finibus pulvinar tristique. Pellentesque ante neque, commodo vitae accumsan sit amet, rhoncus nec ex.
-  image: sufi.jpg
+  description: Lakhpat Rai kills about 10,000 Sikhs over a merciles campaign of battles and torture.  During this period we lost famous Sikhs like Bhai Taru Singh and Bhai Mani Singh.  People were paid rewards for each Sikh head that the brought to the reigime.  Children were butchered in front of their mothers in an attempt to conver them to Islam.
+  image: chota-ghalughara.png
 
 
-- date: ~1400
+- date: 1762
   title: Larger Holocaust
-  description: Fusce nec volutpat odio. Proin iaculis pellentesque velit. Praesent finibus arcu sit amet nisl sollicitudin vehicula. Integer vulputate mollis quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac lobortis ipsum. Vestibulum venenatis hendrerit convallis. Integer ut dui vel sem euismod faucibus a in quam. Maecenas finibus pulvinar tristique. Pellentesque ante neque, commodo vitae accumsan sit amet, rhoncus nec ex.
-  image: sufi.jpg
+  description: Ahmed Shah Duranni Slaughters the Sikh population.  At the time, the Sikh population is estimated to have been about 100,000.  Ahmed Shah Duranni slaughters about 25,000 - 30,000 after mercilesly chasing a caravan of Sikhs (mostly elderly, women and children) who were trying to escape his tyranny.  During this time it is said that the Sikhs lost so much literature, history and other cultural items.
+  image: vadda-ghalughara.jpg
 
 
 - date: ~1400
-  title: Misl Period
+  title: Misl (Confederacy) Period
   description: Fusce nec volutpat odio. Proin iaculis pellentesque velit. Praesent finibus arcu sit amet nisl sollicitudin vehicula. Integer vulputate mollis quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac lobortis ipsum. Vestibulum venenatis hendrerit convallis. Integer ut dui vel sem euismod faucibus a in quam. Maecenas finibus pulvinar tristique. Pellentesque ante neque, commodo vitae accumsan sit amet, rhoncus nec ex.
-  image: sufi.jpg
+  image: hari-singh-nalwa.jpg
 
 
 - date: ~1400
   title: Sikh Kingdom
   description: Fusce nec volutpat odio. Proin iaculis pellentesque velit. Praesent finibus arcu sit amet nisl sollicitudin vehicula. Integer vulputate mollis quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac lobortis ipsum. Vestibulum venenatis hendrerit convallis. Integer ut dui vel sem euismod faucibus a in quam. Maecenas finibus pulvinar tristique. Pellentesque ante neque, commodo vitae accumsan sit amet, rhoncus nec ex.
-  image: sufi.jpg
+  image: ranjit-court.jpg
 
 
 - date: ~1400
   title: Arrival of the British
   description: Fusce nec volutpat odio. Proin iaculis pellentesque velit. Praesent finibus arcu sit amet nisl sollicitudin vehicula. Integer vulputate mollis quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac lobortis ipsum. Vestibulum venenatis hendrerit convallis. Integer ut dui vel sem euismod faucibus a in quam. Maecenas finibus pulvinar tristique. Pellentesque ante neque, commodo vitae accumsan sit amet, rhoncus nec ex.
-  image: sufi.jpg
+  image: anglo-sikh-war.jpg
 
 
 - date: ~1400
   title: Fall of the Sikh Kingdom
   description: Fusce nec volutpat odio. Proin iaculis pellentesque velit. Praesent finibus arcu sit amet nisl sollicitudin vehicula. Integer vulputate mollis quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac lobortis ipsum. Vestibulum venenatis hendrerit convallis. Integer ut dui vel sem euismod faucibus a in quam. Maecenas finibus pulvinar tristique. Pellentesque ante neque, commodo vitae accumsan sit amet, rhoncus nec ex.
-  image: sufi.jpg
+  image: kohinoor.jpg
 
 
-- date: ~1400
+- date: ~1870s
   title: Singh Sabha Movement
-  description: Fusce nec volutpat odio. Proin iaculis pellentesque velit. Praesent finibus arcu sit amet nisl sollicitudin vehicula. Integer vulputate mollis quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac lobortis ipsum. Vestibulum venenatis hendrerit convallis. Integer ut dui vel sem euismod faucibus a in quam. Maecenas finibus pulvinar tristique. Pellentesque ante neque, commodo vitae accumsan sit amet, rhoncus nec ex.
-  image: sufi.jpg
+  description: At the time of the late 1800’s it was clear that certain areas of Sikhism were lapsing back into Hinduism. Sikhs who had recently converted were now returning to the Hindu fold uncertain of the future of Sikhism. A British observer Sir Richard Temple commented “ Sikhism is on the decline, a spent force, the Sikhs are the most uneducated people in the Punjab.” The British exploited the lack of political knowledge of the Sikhs by setting up Christian missionaries. They also opened a Christian missionary school in the holy city of Amritsar, striking at the very heart of Sikhi.  Aside from many other things the Singh Sabha movement also get the Punjabi language taught as an official language in the Punjab.
+  image: giyani-dit-singh.jpg
 
-- date: ~1400
-  title: Akali Movement and Gurdwara Reform Act and rise of the SGPC
-  description: Fusce nec volutpat odio. Proin iaculis pellentesque velit. Praesent finibus arcu sit amet nisl sollicitudin vehicula. Integer vulputate mollis quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac lobortis ipsum. Vestibulum venenatis hendrerit convallis. Integer ut dui vel sem euismod faucibus a in quam. Maecenas finibus pulvinar tristique. Pellentesque ante neque, commodo vitae accumsan sit amet, rhoncus nec ex.
+- date: 1925
+  title: Akali Movement and 1925 Gurdwara Reform Act and rise of the SGPC
+  description: In 1925, after further demands and protests from SGPC, a new "Sikh Gurdwara Bill" was introduced in the Punjab Legislative Assembly. It came into force on 1 November 1925, and awarded the control of all the historical shrines to SGPC. A tribunal was set up to judge the disputes, and all the Akali prisoners were released. By this time, an estimated 30,000 people had been arrested by the British Government; over 400 had been killed and another 2,000 had been injured during the movement.[15] The movement fueled the anti-British Government feeling among the Sikhs. It also led to an anti-Hindu sentiment among a section of Sikhs, who identified the pro-Udasi mahants such as Narain Das and their supporters with the Hindu community.
   stories:
     - title: Saka Panja Sahib
-  image: sufi.jpg
+  image: akali-movement.jpg
 
 - date: 1904
   title: Introduction of the Harmonium
   description: Fusce nec volutpat odio. Proin iaculis pellentesque velit. Praesent finibus arcu sit amet nisl sollicitudin vehicula. Integer vulputate mollis quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac lobortis ipsum. Vestibulum venenatis hendrerit convallis. Integer ut dui vel sem euismod faucibus a in quam. Maecenas finibus pulvinar tristique. Pellentesque ante neque, commodo vitae accumsan sit amet, rhoncus nec ex.
-  image: sufi.jpg
+  image: harmonium.jpg
 
 - date: 1910
   title: WW1 & WW2
   description: Fusce nec volutpat odio. Proin iaculis pellentesque velit. Praesent finibus arcu sit amet nisl sollicitudin vehicula. Integer vulputate mollis quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac lobortis ipsum. Vestibulum venenatis hendrerit convallis. Integer ut dui vel sem euismod faucibus a in quam. Maecenas finibus pulvinar tristique. Pellentesque ante neque, commodo vitae accumsan sit amet, rhoncus nec ex.
-  image: sufi.jpg
+  image: flanders.jpg
 
-- date: 1946
+- date: 1947
   title: Partition
-  description: Fusce nec volutpat odio. Proin iaculis pellentesque velit. Praesent finibus arcu sit amet nisl sollicitudin vehicula. Integer vulputate mollis quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac lobortis ipsum. Vestibulum venenatis hendrerit convallis. Integer ut dui vel sem euismod faucibus a in quam. Maecenas finibus pulvinar tristique. Pellentesque ante neque, commodo vitae accumsan sit amet, rhoncus nec ex.
-  image: sufi.jpg
+  description: Post Indian independance the Mulsims lead by Jinnah petitioned the British to give them their own state before they handed India back.  The British pretty much drew a line down the middle of Punjab and declared one side as Pakistan and one side as India.  In the riots which preceded the partition in the Punjab Province, between 200,000 and 500,000 people were killed in the retributive genocide between the religions. UNHCR estimates 14 million Hindus, Sikhs and Muslims were displaced during the partition; it was the largest mass migration in human history.
+  image: partition.jpg
 
 - date: ~1960
   title: Major Exflux of Sikhs to Diaspora
   description: Fusce nec volutpat odio. Proin iaculis pellentesque velit. Praesent finibus arcu sit amet nisl sollicitudin vehicula. Integer vulputate mollis quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac lobortis ipsum. Vestibulum venenatis hendrerit convallis. Integer ut dui vel sem euismod faucibus a in quam. Maecenas finibus pulvinar tristique. Pellentesque ante neque, commodo vitae accumsan sit amet, rhoncus nec ex.
-  image: sufi.jpg
+  image: sikh-soldiers.jpg
 
 - date: ~1960 - 1984
   title: Punjabi Subha and 1984 and Dehli Riots
