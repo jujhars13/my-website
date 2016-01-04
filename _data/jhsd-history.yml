@@ -1,27 +1,129 @@
 - date: 2500-1500 BC
   title: Pre Aryan civilised (Indus) Society
-  description: "A bronze age civilisation that had settled in the fertile indus valley"
-  media:
-    image: indus-valley-civilisation.jpg
+  description: A bronze age civilisation that had settled in the fertile indus valley.  Often referred to as Dravidian culture. Some say anthropoligists say that Caucasians are derived from albino Dravidians.
+  image: indus-valley-civilisation.jpg
 
 - date: 1500 BC
   title: Arrival of Aryans and Rise of Bhramanism
-  description: Arayan's arrive from modern day Ukraine into North Indian and settle.  They create a caste system to place themselves above the Dravidian natives which forms the basis of what we know as modern Hindusim
-  media:
-      image: bhramanism.jpg
+  description: Arayan's arrive from the Pontic Steppe (modern day Ukraine) into North India and settle.  They create a caste system to place themselves above the Dravidian natives and also rehash existing local religions which forms the basis of what we know as modern Hindusim.  From the Arayans we get Sanskrit and Parakrit languages from which Gurmukhi and Pali derive a lot from.
+  image: bhramanism.jpg
 
 - date: 500 - 200 BC
   title: Persian and Greek Invaders
   description: First come the Persians under Darius and then follow the Greeks under Alexander the Great.
+  image: persian-empire.jpg
 
 - date: 260 BC
   title: The rise of Buddhism in India
   description: Because of Emperor Asoka, Buddhism comes to dominate india with big focus in North India, particularly modern day Pakistan
-  media:
-    image: bhuddism.jpg
+  image: bhuddism.jpg
 
-- date: ~1000 AD
+- date: ~1000 AD - 1600 AD
   title: Arrival of Islam
-  description: Islam had been coming into India via traders since it's founding 500 years previous and there were small violent incursions before that.  However circa 1000 AD we see a big push by Mahmud of Ghazni has the first big push opening up the floodgates for wave after wave of mauruding Muslim conquerors which have a massive hold on India all that way up to the first Sikh Kingdom in the 18th Century.
-  media:
-    image: islam.png
+  description: Islam had been coming into India via traders since it's founding 500 years previous and there were small violent incursions before that.  However circa 1000 AD we see a big push by Mahmud of Ghazni has the first big push opening up the floodgates for wave after wave of mauruding Muslim conquerors which have a massive hold on India all that way up to the first Sikh Kingdom in the 18th Century.  For the human Gurus, their first encouter is with Akhbar and their last with Aurangzeb
+  image: islam.png
+
+- date: ~1200 AD to 1300 AD
+  title: Attack of the Mongols
+  description: Mongolian hordes attack numerous times through this period but are held back by the Mughal regime and never really take hold.  This is one of the last big genetic invasians into India.  Punjab being the doormat of India is where most invaders inseminated.  Punjabis are a mongrel mix of Dravidian, Greek, Ukranian, Persian, Afghan and Mongolian genes.
+  image: mongolian.jpg
+
+- date: ~1400
+  title: Rise of Sufism and the Bhakti Movement
+  description: TODO
+  image: sufi.jpg
+
+- date: 1469
+  title: Birth of Guru Nanak
+  description: TODO -
+  stories:
+    - title: Quazi Rukandeen - the first Sikh Matyr
+  image: sufi.jpg
+
+- date: ~1400
+  title: Shaheedi of Guru Arjan Dev Ji
+  description: TODO
+  image: sufi.jpg
+
+- date: ~1400
+  title: First Sikh Battles under Guru Hargobind Sahib
+  description: TODO
+  stories:
+    - title: Pende Khan, the Guru's training partner
+  image: sufi.jpg
+
+
+- date: ~1400
+  title: Guru Har Rai Sahib becomes Guru
+  description: TODO
+  stories:
+    - title: Guru sahib breaking the flower
+  image: sufi.jpg
+
+
+- date: ~1400
+  title: Rise of Sufism and the Bhakti Movement
+  description: TODO
+  image: sufi.jpg
+
+
+- date: ~1400
+  title: Rise of Sufism and the Bhakti Movement
+  description: TODO
+  image: sufi.jpg
+
+
+- date: ~1400
+  title: Rise of Sufism and the Bhakti Movement
+  description: TODO
+  image: sufi.jpg
+
+
+- date: ~1400
+  title: Rise of Sufism and the Bhakti Movement
+  description: TODO
+  image: sufi.jpg
+
+
+- date: ~1400
+  title: Rise of Sufism and the Bhakti Movement
+  description: TODO
+  image: sufi.jpg
+
+
+- date: ~1400
+  title: Rise of Sufism and the Bhakti Movement
+  description: TODO
+  image: sufi.jpg
+
+
+- date: ~1400
+  title: Rise of Sufism and the Bhakti Movement
+  description: TODO
+  image: sufi.jpg
+
+
+- date: ~1400
+  title: Rise of Sufism and the Bhakti Movement
+  description: TODO
+  image: sufi.jpg
+
+
+- date: ~1400
+  title: Rise of Sufism and the Bhakti Movement
+  description: TODO
+  image: sufi.jpg
+
+
+- date: ~1400
+  title: Rise of Sufism and the Bhakti Movement
+  description: TODO
+  image: sufi.jpg
+
+
+- date: ~1400
+  title: Rise of Sufism and the Bhakti Movement
+  description: TODO
+  image: sufi.jpg
+
+

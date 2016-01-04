@@ -34,11 +34,17 @@ title: JHSD [2016] - Sikh History
         <div class="cd-timeline-content">
             <h2>{{ event.title }}</h2>
             <article class="readmore"><p>{{ event.description }}</p>
-                {% if event.media.image %}
+                {% if event.image %}
                 <div class="media">
-                    <img src="img/pics/{{ event.media.image }}" alt="{{ event.title }}">
+                    <img src="img/pics/{{ event.image }}" alt="{{ event.title }}">
                 </div>
                 {% endif %}
+                {% if event.stories %}
+                {% for story in event.stories %}
+                    <li class="story"><em>Story:</em> {{ story.title }}</li>
+                {% endfor %}
+                {% endif %}
+
             </article>
             <span class="cd-date">{{ event.date }}</span>
         </div>

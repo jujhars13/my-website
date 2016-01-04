@@ -16,19 +16,19 @@ jQuery(document).ready(function ($) {
         });
     });
 
-    /**
-     * readmore eplipsis links
-     */
-    $('article.readmore').readmore({
-        speed: 60,
-        collapsedHeight: 100,
-        heightMargin: 12,
-        moreLink: '<a href="#" class="cd-read-more">Read More</a>',
-        lessLink: '<a href="#" >Close</a>',
-        embedCSS: true,
-        blockCSS: 'display: block; width: 100%;',
-        startOpen: false
-    });
+    ///**
+    // * readmore eplipsis links
+    // */
+    //$('article.readmore').readmore({
+    //    speed: 60,
+    //    collapsedHeight: 100,
+    //    heightMargin: 12,
+    //    moreLink: '<a href="#" class="cd-read-more">Read More</a>',
+    //    lessLink: '<a href="#" >Close</a>',
+    //    embedCSS: true,
+    //    blockCSS: 'display: block; width: 100%;',
+    //    startOpen: false
+    //});
 
 
 })
