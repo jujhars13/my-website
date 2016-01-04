@@ -1,6 +1,7 @@
 ---
 
 title: JHSD [2016] - Sikh History
+cachebuster: 2
 
 ---
 <!DOCTYPE html>
@@ -11,11 +12,11 @@ title: JHSD [2016] - Sikh History
 
     <link href='//fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400,700' rel='stylesheet' type='text/css'>
 
-    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/reset.css?_cache={{ page.cachebuster }}">
     <!-- CSS reset -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css?_cache={{ page.cachebuster }}">
     <!-- Resource style -->
-    <script src="js/modernizr.js"></script>
+    <script src="js/modernizr.js?_cache={{ page.cachebuster }}"></script>
     <!-- Modernizr -->
 
     <title>{{ page.title }}</title>
@@ -58,7 +59,6 @@ title: JHSD [2016] - Sikh History
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/jquery-1.11.0.min.js"><\/script>')</script>
-<script src="js/main.js"></script>
-<script src="js/vendor/jedfoster/readmore/readmore.min.js"></script>
+<script src="js/main.js?_cache={{ page.cachebuster }}"></script>
 </body>
 </html>
