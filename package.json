@@ -1,0 +1,23 @@
+{
+  "name": "jujhars13",
+  "version": "1.0.0",
+  "description": "My Website",
+  "main": "GruntFile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jujhars13/jujhars13.git"
+  },
+  "author": "Jujhar Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jujhars13/jujhars13/issues"
+  },
+  "homepage": "https://github.com/jujhars13/jujhars13#readme"
+}
