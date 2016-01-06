@@ -1,11 +1,11 @@
 - date: 2500-1500 BC
   title: Pre Aryan civilised (Indus) Society
-  description: A bronze age civilisation that had settled in the fertile indus valley.  Often referred to as Dravidian culture. Some say anthropoligists say that Caucasians are derived from albino Dravidians.
+  description: A bronze age civilisation that had settled in the fertile indus valley.  Often referred to as Dravidian culture, they worshipped many Gods and were quite matriarchal in their worship.
   image: indus-valley-civilisation.jpg
 
 - date: 1500 BC
   title: Arrival of Aryans and Rise of Bhramanism
-  description: Arayan's arrive from the Pontic Steppe (modern day Ukraine) into North India and settle.  They create a caste system to place themselves above the Dravidian natives and also rehash existing local religions which forms the basis of what we know as modern Hindusim.  From the Arayans we get Sanskrit and Parakrit languages from which Gurmukhi and Pali derive a lot from.
+  description: Arayan's arrive from the Pontic Steppe (modern day Ukraine) into North India and settle.  They create a caste system to place themselves above the Dravidian natives and also rehash existing local religions which forms the basis of what we know as modern Hindusim.
   image: bhramanism.jpg
 
 - date: 500 - 200 BC
@@ -15,7 +15,7 @@
 
 - date: 260 BC
   title: The rise of Buddhism in India
-  description: Because of Emperor Asoka, Buddhism comes to dominate india with big focus in North India, particularly modern day Pakistan
+  description: Because of Emperor Asoka, Buddhism comes to dominate india with big focus in North India, particularly modern day Pakistan.  We see the earliest examples of the Parakrit (Prakrit) language(s) from which Gurmukhi and Pali derive a lot from.
   image: bhuddism.jpg
 
 - date: ~1000 AD - 1600 AD
@@ -30,15 +30,27 @@
 
 - date: ~1400
   title: Rise of Sufism and the Bhakti Movement
-  description: Fusce nec volutpat odio. Proin iaculis pellentesque velit. Praesent finibus arcu sit amet nisl sollicitudin vehicula. Integer vulputate mollis quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac lobortis ipsum. Vestibulum venenatis hendrerit convallis. Integer ut dui vel sem euismod faucibus a in quam. Maecenas finibus pulvinar tristique. Pellentesque ante neque, commodo vitae accumsan sit amet, rhoncus nec ex.
+  description: The Sufi and Bhakti(Devotianal) movements which stem from Islam and Hinduism (and often cross) place emphasis on love, devotion, humilty...  They are monitheistic and universal, accepting all of humankind (melting away barriers of cast/creed/color).  Sheikh Farid (Sufi) and Bhagat Ramanand (Bhakti) and his students (Kabir, Ravidas, Pipa, Dhanna...) all feature in Gurbani.
   image: sufi.jpg
 
 - date: 1469
   title: Birth of Guru Nanak
-  description: Fusce nec volutpat odio. Proin iaculis pellentesque velit. Praesent finibus arcu sit amet nisl sollicitudin vehicula. Integer vulputate mollis quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac lobortis ipsum. Vestibulum venenatis hendrerit convallis. Integer ut dui vel sem euismod faucibus a in quam. Maecenas finibus pulvinar tristique. Pellentesque ante neque, commodo vitae accumsan sit amet, rhoncus nec ex. -
+  description: "<blockquote>Kal Taran Guru Nanak Ayiya</blockquote> The first master is born - nuff said.
+   <li>He is a contemprary of Babur, one of the more nastier Mughal Emperors</li>
+   <li>His sister becomes the first follower (Sikh) and adores him.</li>
+   <li>His best friend is a Muslim</li>
+   <li>He visits and saves Kauda the cannabal and Sajjan the murderer - proving that nobody is wretched enough for salvation</li>
+   <li>His son becomes a master Udasi Yogi on his command.</li>"
   stories:
     - title: Quazi Rukandeen - the first Sikh Matyr
+    - title: Guru Nanak Dev Jee at Hardvaar
+    - title: Guru Nanak Dev ji's gift to Mardana
   image: g1.jpg
+
+- date: 1604
+  title: Aad Granth Sahib jee is completed and venerated
+  description: Fusce nec volutpat odio. Proin iaculis pellentesque velit. Praesent finibus arcu sit amet nisl sollicitudin vehicula. Integer vulputate mollis quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac lobortis ipsum. Vestibulum venenatis hendrerit convallis. Integer ut dui vel sem euismod faucibus a in quam. Maecenas finibus pulvinar tristique. Pellentesque ante neque, commodo vitae accumsan sit amet, rhoncus nec ex.
+  image: g5.jpg
 
 - date: ~1400
   title: Shaheedi of Guru Arjan Dev Ji
