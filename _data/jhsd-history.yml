@@ -122,8 +122,8 @@
 
 - date: 1746
   title: Smaller Holocaust
-  description: Lakhpat Rai, Mir Manu and Ahmed Shah Duranni(Abdali) kills over 10,000 Sikhs over many merciles campaign of battles and torture.  During this period we lost famous Sikhs like Bhai Taru Singh and Bhai Mani Singh.  People were paid rewards for each Sikh head that the brought to the reigime.  Children were butchered in front of their mothers in an attempt to conver them to Islam.
-  In 1757 Harimandir Sahib blown up and the sacred pool filled with entrails by Ahmed Sha Abdali.
+  description: "Lakhpat Rai, Mir Manu and Ahmed Shah Duranni(Abdali) kills over 10,000 Sikhs over many merciles campaign of battles and torture.  During this period we lost famous Sikhs like Bhai Taru Singh and Bhai Mani Singh.  People were paid rewards for each Sikh head that the brought to the reigime.  Children were butchered in front of their mothers in an attempt to conver them to Islam.
+  <p>In 1757 Harimandir Sahib blown up and the sacred pool filled with entrails by Ahmed Sha Abdali.</p>"
   image: chota-ghalughara.png
 
 
@@ -149,18 +149,17 @@
 - date: 1845 - 1947
   title: Arrival of the British
   description: "The British did many things to and with the Sikhs.  Initially they had their asses handed to them several times by the Sikhs, eventually through attrition and nefarious means they took over.
-    - Annexed and took over the Sikh Kingdom
-    - Rewrote and re-defined our way of life
-    - Persectued the Sikhs
-    - Faught against the Sikhs and the later faught with the Sikhs
-    - Took control of all of our Gurdawaras away from the Sikhs
-    - Re-enforced the caste system
-    - Take a lot of our historical artifacts and scriptures
+    <li> Annexed and took over the Sikh Kingdom </li>
+    <li> Rewrote and re-defined our way of life </li>
+    <li> Persectued the Sikhs </li>
+    <li> Faught against the Sikhs and the later faught with the Sikhs </li>
+    <li> Took control of all of our Gurdawaras away from the Sikhs </li>
+    <li> Re-enforced the caste system </li>
+    <li> Take a lot of our historical artifacts and scriptures </li>
   "
   stories:
       - title: Battle of Saraghari [1897] 21 vs 10,000
   image: kohinoor.jpg
-
 
 - date: ~1870s
   title: Singh Sabha Movement
@@ -181,7 +180,11 @@
 
 - date: 1910
   title: WW1 & WW2
-  description: Fusce nec volutpat odio. Proin iaculis pellentesque velit. Praesent finibus arcu sit amet nisl sollicitudin vehicula. Integer vulputate mollis quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac lobortis ipsum. Vestibulum venenatis hendrerit convallis. Integer ut dui vel sem euismod faucibus a in quam. Maecenas finibus pulvinar tristique. Pellentesque ante neque, commodo vitae accumsan sit amet, rhoncus nec ex.
+  description: The British Commenwealth lened heavily on the Sikhs to help them during both wars.  They really respected our abilities and our fearlesness.  They activly encouraged Sikhs to take Amrit as they understood that our devotion made us incredible.  As a result Sikhs in the UK are renowned and respected.
+  <blockquote><p>'Finally, we that live on can never forget those comrades who in giving their lives gave so much that is good to the story of the Sikh Regiment. No living glory can transcend that of their supreme sacrifice, may they rest in peace.
+              In the last two world wars 83,005 turban wearing Sikh soldiers were killed and 109,045 were wounded. They all died or were wounded for the freedom of Britain and the world and during shell fire, with no other protection but the turban, the symbol of their faith.'</p>
+
+              <p>General Sir Frank Messervy KCSI, KBE, CB, DSO</p></blockquote>
   image: flanders.jpg
 
 - date: 1947
@@ -190,16 +193,24 @@
   image: partition.jpg
 
 - date: ~1960
-  title: Major Exflux of Sikhs to Diaspora
-  description: Fusce nec volutpat odio. Proin iaculis pellentesque velit. Praesent finibus arcu sit amet nisl sollicitudin vehicula. Integer vulputate mollis quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac lobortis ipsum. Vestibulum venenatis hendrerit convallis. Integer ut dui vel sem euismod faucibus a in quam. Maecenas finibus pulvinar tristique. Pellentesque ante neque, commodo vitae accumsan sit amet, rhoncus nec ex.
-  image: sikh-soldiers.jpg
+  title: Second Major Exflux of Sikhs to western Diaspora
+  description: We start to see the second major Exflux of Sikhs to form the Sikh Diaspora.  In particular the UK, Canada and the US.  Diasporas in Africa, and far East Asia have been around for about 100 years now.
+  image: queens-guard-sikh-soldiers.jpg
 
 - date: ~1960 - 1984
   title: Punjabi Subha and 1984 and Dehli Riots
   description: Fusce nec volutpat odio. Proin iaculis pellentesque velit. Praesent finibus arcu sit amet nisl sollicitudin vehicula. Integer vulputate mollis quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac lobortis ipsum. Vestibulum venenatis hendrerit convallis. Integer ut dui vel sem euismod faucibus a in quam. Maecenas finibus pulvinar tristique. Pellentesque ante neque, commodo vitae accumsan sit amet, rhoncus nec ex.
   image: 1984.jpg
 
-- date: ~1960 - Present
+- date: ~1900 - Present
   title: Modern Jathebandis
-  description: Fusce nec volutpat odio. Proin iaculis pellentesque velit. Praesent finibus arcu sit amet nisl sollicitudin vehicula. Integer vulputate mollis quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac lobortis ipsum. Vestibulum venenatis hendrerit convallis. Integer ut dui vel sem euismod faucibus a in quam. Maecenas finibus pulvinar tristique. Pellentesque ante neque, commodo vitae accumsan sit amet, rhoncus nec ex.
+  description: "We see the foundation of quite a few new Sikh institutions in this short period and especially a big resurgance of the Sikh spirit since 1984.
+    <li> AKJ </li>
+    <li> Nanaksar </li>
+    <li> Western Sikh Dharma </li>
+    <li> GNNSJ </li>
+    <li> Sikh Missionary Society</li>
+
+    <strong>The future is bright - By Guru's grace...</strong>
+    "
   image: guruganesha_laughing.jpg
