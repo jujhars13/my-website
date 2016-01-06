@@ -48,19 +48,20 @@
   image: g1.jpg
 
 - date: 1604
-  title: Aad Granth Sahib jee is completed and venerated
-  description: Fusce nec volutpat odio. Proin iaculis pellentesque velit. Praesent finibus arcu sit amet nisl sollicitudin vehicula. Integer vulputate mollis quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac lobortis ipsum. Vestibulum venenatis hendrerit convallis. Integer ut dui vel sem euismod faucibus a in quam. Maecenas finibus pulvinar tristique. Pellentesque ante neque, commodo vitae accumsan sit amet, rhoncus nec ex.
+  title: Aaad Granth Sahib jee is completed and venerated
+  description: Aaad Granth Sahib Jee (Shabad Guru, Surat Dhun Chela) is completed by Guru Arjan Dev jee, installed and venerated in the Harimandir Sahib
+  image: g11-before-they-were-g11.jpg
+
+- date: 1606
+  title: Shaheedi of Guru Arjan Dev Jee
+  description: Guru Arjan Dev Jee is arrested by Jahangir and asked to convert to islam.  He is brutally tortued to death by the Regime.
   image: g5.jpg
 
-- date: ~1400
-  title: Shaheedi of Guru Arjan Dev Ji
-  description: Fusce nec volutpat odio. Proin iaculis pellentesque velit. Praesent finibus arcu sit amet nisl sollicitudin vehicula. Integer vulputate mollis quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac lobortis ipsum. Vestibulum venenatis hendrerit convallis. Integer ut dui vel sem euismod faucibus a in quam. Maecenas finibus pulvinar tristique. Pellentesque ante neque, commodo vitae accumsan sit amet, rhoncus nec ex.
-  image: g5.jpg
-
-- date: ~1400
-  title: First Sikh Battles under Guru Hargobind Sahib
-  description: Fusce nec volutpat odio. Proin iaculis pellentesque velit. Praesent finibus arcu sit amet nisl sollicitudin vehicula. Integer vulputate mollis quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac lobortis ipsum. Vestibulum venenatis hendrerit convallis. Integer ut dui vel sem euismod faucibus a in quam. Maecenas finibus pulvinar tristique. Pellentesque ante neque, commodo vitae accumsan sit amet, rhoncus nec ex.
+- date: ~1630s
+  title: First battles under Guru Hargobind Sahib
+  description: The biggest and strongest of all the gurus (rumoured to be over 7' tall) has several battles where he kicks serious butt. <blockquote><p> 'Internally a hermit, and externally a prince. Arms mean protection to the poor and destruction of the tyrant. Baba Nanak had not renounced the world but had renounced Maya</p></blockquote>'
   stories:
+    - title: Guru Sahib invents the taus
     - title: Pende Khan, the Guru's training partner
     - title: Guru can re-write destiny
     - title: Guru frees 52 prisoners of conscience
@@ -69,30 +70,32 @@
   image: g6.jpg
 
 
-- date: ~1400
+- date: 1644
   title: Guru Har Rai Sahib becomes Guru
-  description: Ecologist, Healer, animal lover Fusce nec volutpat odio. Proin iaculis pellentesque velit. Praesent finibus arcu sit amet nisl sollicitudiHEAL vehicula. Integer vulputate mollis quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac lobortis ipsum. Vestibulum venenatis hendrerit convallis. Integer ut dui vel sem euismod faucibus a in quam. Maecenas finibus pulvinar tristique. Pellentesque ante neque, commodo vitae accumsan sit amet, rhoncus nec ex.
+  description: Ecologist, master Healer, animal lover. Guru Sahib really introduces the healing arts into the Sikh way of life.
   stories:
     - title: Guru sahib breaking the flower
   image: g7.jpg
 
-- date: 1699
+
+- date: 1675
   title: Martrydom of Guru Tegh Bahadur Sahib
-  description: Fusce nec volutpat odio. Proin iaculis pellentesque velit. Praesent finibus arcu sit amet nisl sollicitudin vehicula. Integer vulputate mollis quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac lobortis ipsum. Vestibulum venenatis hendrerit convallis. Integer ut dui vel sem euismod faucibus a in quam. Maecenas finibus pulvinar tristique. Pellentesque ante neque, commodo vitae accumsan sit amet, rhoncus nec ex.
+  description: The most beloved Guru has his Sikhs tortured in front of him and is beheaded by standing up for a faith other than his own.
   stories:
     - title: Bhai Mati Daas
+    - title: Guru gives his chola to the poor
   image: bhai-mati-daas.jpg
 
 
 - date: 1699
   title: Birth of the Khalsa
-  description: Fusce nec volutpat odio. Proin iaculis pellentesque velit. Praesent finibus arcu sit amet nisl sollicitudin vehicula. Integer vulputate mollis quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac lobortis ipsum. Vestibulum venenatis hendrerit convallis. Integer ut dui vel sem euismod faucibus a in quam. Maecenas finibus pulvinar tristique. Pellentesque ante neque, commodo vitae accumsan sit amet, rhoncus nec ex.
+  description: The pure ones are annointed.
   image: khalsa.jpg
 
 
-- date: ~1400
+- date: ~1700s
   title: Sikh Battles and Shaheedi of Chaar Sahibzaade
-  description: Fusce nec volutpat odio. Proin iaculis pellentesque velit. Praesent finibus arcu sit amet nisl sollicitudin vehicula. Integer vulputate mollis quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac lobortis ipsum. Vestibulum venenatis hendrerit convallis. Integer ut dui vel sem euismod faucibus a in quam. Maecenas finibus pulvinar tristique. Pellentesque ante neque, commodo vitae accumsan sit amet, rhoncus nec ex.
+  description: The Guru fights many campaigns against the regime and local Hindu hill rajas.  His two eldest sons are killed in battle and his two youngest (just 7 and 5) are tortured to death
   stories:
     - title: Shaheedi of the two younger Sahibzaade
     - title: Bhai Bachiter Singh
