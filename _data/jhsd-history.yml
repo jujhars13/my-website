@@ -49,7 +49,7 @@
 
 - date: 1604
   title: Aaad Granth Sahib jee is completed and venerated
-  description: Aaad Granth Sahib Jee (Shabad Guru, Surat Dhun Chela) is completed by Guru Arjan Dev jee, installed and venerated in the Harimandir Sahib
+  description: Sabad Guru is compiled into Aaad Granth Sahib Jee (Shabad Guru, Surat Dhun Chela) by Guru Arjan Dev jee, installed and venerated in the Harimandir Sahib.
   image: g11-before-they-were-g11.jpg
 
 - date: 1606
@@ -95,58 +95,70 @@
 
 - date: ~1700s
   title: Sikh Battles and Shaheedi of Chaar Sahibzaade
-  description: The Guru fights many campaigns against the regime and local Hindu hill rajas.  His two eldest sons are killed in battle and his two youngest (just 7 and 5) are tortured to death
+  description: The Guru fights many campaigns against the regime and local Hindu hill rajas.  His two eldest sons are killed in the battle of Chamkaur.  His two youngest (just 7 and 5) are tortured to death
   stories:
     - title: Shaheedi of the two younger Sahibzaade
+    - title: Bibi Sharan Kaur Martyrs herself to conduct the funeral rights for the two elder sons
     - title: Bhai Bachiter Singh
   image: sahibzaade.jpg
 
 
-- date: ~1400
+- date: 1708
   title: Last of the Human Gurus and the Instantiation of Sabd Guru
-  description: Fusce nec volutpat odio. Proin iaculis pellentesque velit. Praesent finibus arcu sit amet nisl sollicitudin vehicula. Integer vulputate mollis quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac lobortis ipsum. Vestibulum venenatis hendrerit convallis. Integer ut dui vel sem euismod faucibus a in quam. Maecenas finibus pulvinar tristique. Pellentesque ante neque, commodo vitae accumsan sit amet, rhoncus nec ex.
+  description: "The coropreal form of Sabad Guru - Sri Guru Granth Sahib Jee is firstly compiled by Guru Gobind Singh Jee by heart and then made the eternal Guru of the Sikhs just before Guru Gobind Singh Jee passes away. The two main schools of Gurbani come from the two scribes - Bhai Mani Singh Jee and Baba Deep Singh Jee
+  <blockquote><p>
+                                Guru Granth kalyug bhyo Sri Guru roop samaan
+
+                                Das Patshahian roop eh Guru Granth ji jaan
+  </p></blockquote> GS - PP"
   image: sabad-guru.jpg
 
 
-- date: ~1400
+- date: 1708
   title: Banda Singh Bahadur
-  description: Fusce nec volutpat odio. Proin iaculis pellentesque velit. Praesent finibus arcu sit amet nisl sollicitudin vehicula. Integer vulputate mollis quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac lobortis ipsum. Vestibulum venenatis hendrerit convallis. Integer ut dui vel sem euismod faucibus a in quam. Maecenas finibus pulvinar tristique. Pellentesque ante neque, commodo vitae accumsan sit amet, rhoncus nec ex.
+  description: A yogi, then chosen by G10 to be a miltary commander for him and continues the fight against tyrrany after G10 is gone.  Eventually captured in 1715 around 2000 sikhs were tortured and killed before him before he himself is brutally tortured and killed for refusing to accept Islam.
   image: banda-singh.jpg
 
 
 - date: 1746
   title: Smaller Holocaust
-  description: Lakhpat Rai kills about 10,000 Sikhs over a merciles campaign of battles and torture.  During this period we lost famous Sikhs like Bhai Taru Singh and Bhai Mani Singh.  People were paid rewards for each Sikh head that the brought to the reigime.  Children were butchered in front of their mothers in an attempt to conver them to Islam.
+  description: Lakhpat Rai, Mir Manu and Ahmed Shah Duranni(Abdali) kills over 10,000 Sikhs over many merciles campaign of battles and torture.  During this period we lost famous Sikhs like Bhai Taru Singh and Bhai Mani Singh.  People were paid rewards for each Sikh head that the brought to the reigime.  Children were butchered in front of their mothers in an attempt to conver them to Islam.
+  In 1757 Harimandir Sahib blown up and the sacred pool filled with entrails by Ahmed Sha Abdali.
   image: chota-ghalughara.png
 
 
 - date: 1762
   title: Larger Holocaust
-  description: Ahmed Shah Duranni Slaughters the Sikh population.  At the time, the Sikh population is estimated to have been about 100,000.  Ahmed Shah Duranni slaughters about 25,000 - 30,000 after mercilesly chasing a caravan of Sikhs (mostly elderly, women and children) who were trying to escape his tyranny.  During this time it is said that the Sikhs lost so much literature, history and other cultural items.
+  description: Ahmed Shah Duranni Slaughters nearly half the fledgling Sikh population.  At the time, the Sikh population is estimated to have been about 100,000.  Ahmed Shah Duranni slaughters about 25,000 - 30,000 after mercilesly chasing a caravan of Sikhs (mostly elderly, women and children) who were trying to escape his tyranny.  During this time it is said that the Sikhs lost so much literature, history and other cultural items.
+
   image: vadda-ghalughara.jpg
 
 
-- date: ~1400
+- date: 1707 - 1799
   title: Misl (Confederacy) Period
-  description: Fusce nec volutpat odio. Proin iaculis pellentesque velit. Praesent finibus arcu sit amet nisl sollicitudin vehicula. Integer vulputate mollis quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac lobortis ipsum. Vestibulum venenatis hendrerit convallis. Integer ut dui vel sem euismod faucibus a in quam. Maecenas finibus pulvinar tristique. Pellentesque ante neque, commodo vitae accumsan sit amet, rhoncus nec ex.
+  description: Sikhs who have been reeling from the Mughal regime's tyranny formed into 12 small autonomous Jathas in order to survive.  They meet about once a year at a <strong>Sarbatt(all) Khalsa</strong>  These were desperate times for survival for the Sikh nation.
   image: hari-singh-nalwa.jpg
 
 
-- date: ~1400
+- date: 1799 - 1854
   title: Sikh Kingdom
-  description: Fusce nec volutpat odio. Proin iaculis pellentesque velit. Praesent finibus arcu sit amet nisl sollicitudin vehicula. Integer vulputate mollis quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac lobortis ipsum. Vestibulum venenatis hendrerit convallis. Integer ut dui vel sem euismod faucibus a in quam. Maecenas finibus pulvinar tristique. Pellentesque ante neque, commodo vitae accumsan sit amet, rhoncus nec ex.
+  description: Ranjit Singh of the Sukerchakia Misl brings together the 11 other missals and founds the first real <strong>(Secular)</strong> Sikh Kingdom.  He kicks Duranni's butt.  He rules from Kabul to Dehli.  It is a Golden age for the Sikhs. A time of peace and expansion not only for the Sikhs but for all religions.  Unfortunatly the British arrive and backstab him, kidnap his son and take over the empire.
   image: ranjit-court.jpg
 
 
-- date: ~1400
+- date: 1845 - 1947
   title: Arrival of the British
-  description: Fusce nec volutpat odio. Proin iaculis pellentesque velit. Praesent finibus arcu sit amet nisl sollicitudin vehicula. Integer vulputate mollis quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac lobortis ipsum. Vestibulum venenatis hendrerit convallis. Integer ut dui vel sem euismod faucibus a in quam. Maecenas finibus pulvinar tristique. Pellentesque ante neque, commodo vitae accumsan sit amet, rhoncus nec ex.
-  image: anglo-sikh-war.jpg
-
-
-- date: ~1400
-  title: Fall of the Sikh Kingdom
-  description: Fusce nec volutpat odio. Proin iaculis pellentesque velit. Praesent finibus arcu sit amet nisl sollicitudin vehicula. Integer vulputate mollis quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac lobortis ipsum. Vestibulum venenatis hendrerit convallis. Integer ut dui vel sem euismod faucibus a in quam. Maecenas finibus pulvinar tristique. Pellentesque ante neque, commodo vitae accumsan sit amet, rhoncus nec ex.
+  description: "The British did many things to and with the Sikhs.  Initially they had their asses handed to them several times by the Sikhs, eventually through attrition and nefarious means they took over.
+    - Annexed and took over the Sikh Kingdom
+    - Rewrote and re-defined our way of life
+    - Persectued the Sikhs
+    - Faught against the Sikhs and the later faught with the Sikhs
+    - Took control of all of our Gurdawaras away from the Sikhs
+    - Re-enforced the caste system
+    - Take a lot of our historical artifacts and scriptures
+  "
+  stories:
+      - title: Battle of Saraghari [1897] 21 vs 10,000
   image: kohinoor.jpg
 
 
