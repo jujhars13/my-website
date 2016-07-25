@@ -1,4 +1,4 @@
-highlighter: pygments
+highlighter: rouge
 markdown: kramdown
 author: Jujhar Singh
 url: https://jujhar.com
