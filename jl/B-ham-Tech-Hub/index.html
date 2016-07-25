@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<title>Brum Bikes</title>
+<link href="https://fonts.googleapis.com/css?family=Pacifico" rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<head>
+<style>
+
+body{ 
+	width:960px; 
+	padding:100px 0; 
+	margin:0 auto; 
+	font-family:Calibri, sans-serif; 
+}
+
+#nav{
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+
+#nav li{
+    display: inline;
+	padding:10px;
+}
+
+h1{
+	font-family: 'Pacifico', cursive;
+	font-size: 130px;
+	color:#1B5E20;
+}
+
+p{
+	color: #1B5E20;
+}
+	
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+footer{
+	
+	color:#1B5E20;
+}
+	
+.footer-social { 
+	bottom : 2px;  
+	height : 40px;  
+	margin-top : 40px;  
+	text-align: center;  
+	vertical-align: middle; 
+	position:relative;
+	width:100%; }
+
+</style>
+<script>
+// open links
+$(document).ready(function() {
+
+$('body').css('display', 'none');
+$('body').fadeIn(1000);
+$('.link').click(function(event) {
+
+event.preventDefault();
+
+newLocation = this.href;
+
+$('body').fadeOut(1000, newpage);
+});
+
+function newpage() {
+window.location = newLocation;
+}
+});
+
+// JSON Bike url
+var url = "https://raw.githubusercontent.com/jujhars13/jujhars13/master/bikes.json";
+
+//retrieve JSON
+$.getJSON(url, function (json) {
+var items = json.items;
+var tr;
+//loop over items and append
+for (var i = 0; i < items.length; i++) {
+
+	tr = $('<tr/>');
+    	tr.append("<td>" + items[i].name + "</td>");
+    	tr.append("<td>" + items[i].description + "</td>");
+	tr.append("<img src ='"+items[i].image.thumb+"'/>");
+	tr.append("<td>" + items[i].class + "</td>");
+    	$('table').append(tr);
+
+	}
+});
+
+//bike class filter
+function filterTable(foo){
+    $('#table > tbody  > tr').each(function() {
+        var cellText = $(this).find('td').eq(2).text();
+
+        if (cellText.indexOf(foo) >= 0)
+        {
+            $(this).show();
+        }
+        else {
+            $(this).hide();
+        }
+    });
+}
+
+</script>
+</head>
+
+<body>
+
+<h1> John Lewis Bikes </h1>
+
+<ul id="nav">
+  <li><a href="https://raw.githubusercontent.com/jujhars13/jujhars13/master/bikes.json">JSON</a></li>
+</ul>
+<br>
+
+<p>
+A bicycle is many things to many people. It appeals to the pragmatist as well as to the dreamer, and serves as both tool and companion. 
+A bicycle should therefore make you feel good when you ride it - this is why JL Bikes specialise in providing the best customer service and 
+range of bikes available&hellip; 
+</p>
+<br>
+
+<table id= "table" class="table table-filterable table-responsive table-striped table-bordered">
+<thead>
+	<tr>
+            	<td>Name:</td>
+            	<td>Description:</td>
+            	<td>Image:</td>
+            	<td>Class:
+			<select name ='filterText' id='filterText' style='display:inline-block' onchange="filterTable(this.value)">
+                                <option disabled selected>select</option>
+                                <option value='endurance'>endurance</option>
+                                <option value='race'>race</option>
+                                <option value='comfort'>comfort</option>
+				<option value='endurance'+'race'+'comfort'>show all</option>
+            		</select>
+		</td>
+        </tr>
+</thead>
+</table>
+
+<footer>
+
+<div class="footer-social" style="align: center;">
+
+<p> Follow us on </p>  
+  
+<a href="http://www.facebook.com">
+	<img src="fb.PNG" style="width: 35px; height: 35px;">
+</a>
+<a href="http://www.twitter.com">
+    <img src="twitter.PNG" style="width: 35px; height: 35px;">
+</a>
+<a href="https://www.instagram.com/isambardscycles/">
+    <img src="insta.PNG" style="width: 35px; height: 35px;">
+</a>
+
+
+</footer>
+
+</body>
+
+</html>
