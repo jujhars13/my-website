@@ -123,7 +123,9 @@
   image: sabad-guru.jpg
 - date: 1708
   title: Banda Singh Bahadur
-  description: A yogi, then chosen by G10 to be a military commander for him and continues the fight against tyranny after G10 is gone.  Eventually captured in 1715 around 2000 Sikhs were tortured and killed before him before he himself is brutally tortured and killed for refusing to accept Islam.
+  description: A yogi, then chosen by G10 to be a military commander for him and continues the fight against tyranny after G10 is gone.  Eventually captured in 1715 around 2000 Sikhs were tortured and killed before him before he himself is brutally tortured and killed for refusing to accept Islam.  
+  stories:
+    - title: Bibi Shusheel Kaur (his wife)
   image: banda-singh.jpg
 - date: 1746
   title: Smaller Holocaust
