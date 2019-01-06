@@ -528,3 +528,7 @@ header h1 {
         transform: translateX(0);
     }
 }
+
+.sequence {
+    font-size:140%
+}
