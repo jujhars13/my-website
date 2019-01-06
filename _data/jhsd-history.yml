@@ -1,15 +1,15 @@
 - date: 2500-1500 BC
-  title: Pre Aryan civilised (Indus) Society
+  title: 1. Pre Aryan civilised (Indus) Society
   description: A bronze age civilisation that had settled in the fertile indus valley.  Often referred to as Dravidian culture, they worshipped many Gods and were quite matriarchal in their worship.
   image: indus-valley-civilisation.jpg
 
 - date: 1500 BC
-  title: Arrival of Aryans and Rise of Bhramanism
+  title: 2. Arrival of Aryans and Rise of Bhramanism
   description: Arayan's arrive from the Pontic Steppe (modern day Ukraine) into North India and settle.  They create a caste system to place themselves above the Dravidian natives and also rehash existing local religions which forms the basis of what we know as modern Hindusim.
   image: bhramanism.jpg
 
 - date: 500 - 200 BC
-  title: Persian and Greek Invaders
+  title: 3. Persian and Greek Invaders
   description: First come the Persians under Darius and then follow the Greeks under Alexander the Great.
   image: persian-empire.jpg
 
@@ -19,7 +19,7 @@
 #  image: bhuddism.jpg
 
 - date: ~1000 AD - 1600 AD
-  title: Arrival of Islam
+  title: 4. Arrival of Islam
   description: Islam had been coming into India via traders since it's founding 500 years previous and there were small violent incursions before that.  However circa 1000 AD we see a big push by Mahmud of Ghazni has the first big push opening up the floodgates for wave after wave of marauding Muslim conquerors which have a massive hold on India all that way up to the first Sikh Kingdom in the 18th Century.  For the human Gurus, their first encounter is with Akhbar and their last with Aurangzeb
   image: islam.png
 
@@ -27,13 +27,14 @@
 #  title: Attack of the Mongols
 #  description: Mongolian hordes attack numerous times through this period but are held back by the Mughal regime and never really take hold.  This is one of the last big genetic invasians into India.  Punjab being the doormat of India is where most invaders inseminated.  Punjabis are a mongrel mix of Dravidian, Greek, Ukranian, Persian, Afghan and Mongolian genes.
 #  image: mongolian.jpg
-#- date: ~1400
-#  title: Rise of Sufism and the Bhakti Movement
-#  description: The Sufi and Bhakti(Devotianal) movements which stem from Islam and Hinduism (and often cross) place emphasis on love, devotion, humilty...  They are monitheistic and universal, accepting all of humankind (melting away barriers of cast/creed/color).  Sheikh Farid (Sufi) and Bhagat Ramanand (Bhakti) and his students (Kabir, Ravidas, Pipa, Dhanna...) all feature in Gurbani.
-#  image: sufi.jpg
+
+- date: ~1400
+ title: 5. Rise of Sufism and the Bhakti Movement
+ description: The Sufi and Bhakti(Devotianal) movements which stem from Islam and Hinduism (and often cross) place emphasis on love, devotion, humilty...  They are monitheistic and universal, accepting all of humankind (melting away barriers of cast/creed/color).  Sheikh Farid (Sufi) and Bhagat Ramanand (Bhakti) and his students (Kabir, Ravidas, Pipa, Dhanna...) all feature in Gurbani.
+ image: sufi.jpg
 
 - date: 1469
-  title: Birth of Guru Nanak
+  title: 6. Birth of Guru Nanak
   description: "
    <p>At the time India is suffering under tyranny and hypocrisy.  Into these conditions. The first master is born.</p>
    <p>
@@ -50,7 +51,7 @@
   image: g1.jpg
 
 - date: 1552
-  title: Guru Amar Daas Jee is Guru
+  title: 7. Guru Amar Daas Jee is Guru
   description: "
    <p>Becomes Guru at 73!, dies at the ripe age of 95!</p>
    <p>Guru Amar Daas Jee really works hard for gender equality</p>
