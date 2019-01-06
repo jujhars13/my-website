@@ -29,9 +29,9 @@
 #  image: mongolian.jpg
 
 - date: ~1400
- title: 5. Rise of Sufism and the Bhakti Movement
- description: The Sufi and Bhakti(Devotianal) movements which stem from Islam and Hinduism (and often cross) place emphasis on love, devotion, humilty...  They are monitheistic and universal, accepting all of humankind (melting away barriers of cast/creed/color).  Sheikh Farid (Sufi) and Bhagat Ramanand (Bhakti) and his students (Kabir, Ravidas, Pipa, Dhanna...) all feature in Gurbani.
- image: sufi.jpg
+  title: 5. Rise of Sufism and the Bhakti Movement
+  description: The Sufi and Bhakti(Devotianal) movements which stem from Islam and Hinduism (and often cross) place emphasis on love, devotion, humilty...  They are monitheistic and universal, accepting all of humankind (melting away barriers of cast/creed/color).  Sheikh Farid (Sufi) and Bhagat Ramanand (Bhakti) and his students (Kabir, Ravidas, Pipa, Dhanna...) all feature in Gurbani.
+  image: sufi.jpg
 
 - date: 1469
   title: 6. Birth of Guru Nanak
@@ -63,16 +63,19 @@
      <li>56/146 of his preachers are women</li>
    </p>"
   image: g3.jpg
+
 - date: 1604
-  title: Aaad Granth Sahib jee is completed and venerated
+  title: 8.Aaad Granth Sahib jee is completed and venerated
   description: Sabad Guru is compiled into Aaad Granth Sahib Jee (Sabad Guru, Surat Dhun Chela) by Guru Arjan Dev jee, installed and venerated in the Harimandir Sahib.
   image: g11-before-they-were-g11.jpg
+
 - date: 1606
-  title: Shaheedi of Guru Arjan Dev Jee
+  title: 9. Shaheedi of Guru Arjan Dev Jee
   description: Guru Arjan Dev Jee is arrested by Jahangir and asked to convert to Islam.  He is brutally tortured to death by the Regime.
   image: g5.jpg
+
 - date: ~1630s
-  title: First battles under Guru Hargobind Sahib
+  title: 10. First battles under Guru Hargobind Sahib
   description: The biggest and strongest of all the gurus (rumoured to be over 7' tall) has several battles where he kicks serious butt. <blockquote><p> 'Internally a hermit, and externally a prince. Arms mean protection to the poor and destruction of the tyrant. Baba Nanak had not renounced the world but had renounced Maya</p></blockquote>'
   stories:
     - title: Pende Khan, the Guru's training partner
@@ -81,8 +84,9 @@
     - title: Guru sahib invents the taus
     - title: Guru Sahib and Mata Kaula
   image: g6.jpg
+
 - date: 1630
-  title: Mata Kaulan
+  title: 11. Mata Kaulan
   description: Qazi Rustam Khan's daughter Kaulan fell in love with the Guru via his Bani via Sain Mian Mir.  Her father threatened to beat her to death if she continued to recite the bani.  She ran away from home and the Guru built her a residence near Harimandir Sahib - Kaulsar.
   image: kaulsar.jpg
 - date: 1644
