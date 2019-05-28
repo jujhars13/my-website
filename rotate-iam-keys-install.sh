@@ -1,5 +1,8 @@
 #!/bin/bash
-# to run
+# install Fullscreen's Go based AWS IAM key rotator and set it up in your personal crontab 
+# to run every day at midday
+#
+# to run:
 # curl -fsSL https://jujhar.com/rotate-iam-keys-install.sh | sudo bash -
 
 export download="aws-rotate-key-1.0.6-linux_amd64.zip"
