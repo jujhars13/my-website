@@ -25,8 +25,9 @@ curl -fsSL https://jujhar.com/rotate-iam-keys.sh -o rotate-iam-keys.sh
 chmod +x rotate-iam-keys.sh
 mv rotate-iam-keys.sh "${HOME}"
 
-echo "Install into personal crontab"
+echo "Append into personal crontab"
 touch /var/log/rotate-iam-keys.log && sudo chmod 666 /var/log/rotate-iam-keys.log
 (crontab -l ; echo "01 12 * * * AWS_SHARED_CREDENTIALS_FILE=${HOME}/.aws/credentials ${HOME}/rotate-iam-keys.sh &>/var/log/rotate-iam-keys.log") | \
 crontab -u "${USER}" -
-echo "Check /var/log/rotate-iam-keys.log occasionally"
+
+echo "" && echo "Installed, remember to check /var/log/rotate-iam-keys.log occasionally"
