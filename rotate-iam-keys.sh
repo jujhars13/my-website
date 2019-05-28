@@ -23,11 +23,11 @@ fi
 
 profiles=$(grep "^\[" "${AWS_SHARED_CREDENTIALS_FILE}" |sort -u | xargs | tr '\[' ' ' | tr '\]' ' ')
 
-echo "Started all iam key rotation $(date +%Y-%m-%d_%H-%M-%S)"
+echo "Started all IAM key rotation $(date +%Y-%m-%d_%H-%M-%S)"
 
 for profile in $profiles; do
 	echo -e "\t Rotating IAM key for ${profile}"
 	$(which aws-rotate-key) --profile "${profile}" -y
 done
 
-echo "Finished all iam key rotations $(date +%Y-%m-%d_%H-%M-%S)"
+echo "Finished all IAM key rotations $(date +%Y-%m-%d_%H-%M-%S)"

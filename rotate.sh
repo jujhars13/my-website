@@ -7,6 +7,8 @@
 # 
 # deps: bash, curl and unzip
 
+set -euo pipefail
+
 export download="aws-rotate-key-1.0.6-linux_amd64.zip"
 if [[ "$OSTYPE" == "darwin"* ]]; then
     download="aws-rotate-key-1.0.6-darwin_amd64.zip"
