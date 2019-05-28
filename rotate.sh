@@ -38,11 +38,12 @@ chmod +x rotate-iam-keys.sh
 mv rotate-iam-keys.sh "${HOME}" || true
 
 echo "Append into personal crontab"
+local_user=$(logname)
 # As we're running as sudo we have to take extra steps to install into the calling user's
 # crontab and not root's crontab 
 # @see https://stackoverflow.com/questions/1629605/getting-user-inside-shell-script-when-running-with-sudo
 touch /var/log/rotate-iam-keys.log && sudo chmod 666 /var/log/rotate-iam-keys.log
 (crontab -l ; echo "01 12 * * * AWS_SHARED_CREDENTIALS_FILE=${HOME}/.aws/credentials ${HOME}/rotate-iam-keys.sh &>/var/log/rotate-iam-keys.log") | \
-crontab -u $(logname) -
+crontab -u "$local_user" -
 
 echo "" && echo "Installed, remember to check /var/log/rotate-iam-keys.log occasionally"
