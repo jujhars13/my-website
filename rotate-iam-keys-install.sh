@@ -4,6 +4,8 @@
 #
 # to run:
 # curl -fsSL https://jujhar.com/rotate-iam-keys-install.sh | sudo bash -
+# 
+# deps: bash, curl and unzip
 
 export download="aws-rotate-key-1.0.6-linux_amd64.zip"
 if [[ "$OSTYPE" == "darwin"* ]]; then
@@ -19,7 +21,7 @@ mv aws-rotate-key /usr/local/bin/aws-rotate-key
 echo "download and install our rotate script"
 curl -fsSL https://jujhar.com/rotate-iam-keys.sh -o rotate-iam-keys.sh
 chmod +x rotate-iam-keys.sh
-mv /tmp/rotate-iam-keys.sh "${HOME}"
+mv rotate-iam-keys.sh "${HOME}"
 
 echo "install into personal crontab"
 touch /var/log/rotate-iam-keys.log && sudo chmod 666 /var/log/rotate-iam-keys.log
