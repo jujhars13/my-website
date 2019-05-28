@@ -27,5 +27,6 @@ mv rotate-iam-keys.sh "${HOME}"
 
 echo "Install into personal crontab"
 touch /var/log/rotate-iam-keys.log && sudo chmod 666 /var/log/rotate-iam-keys.log
-echo "01 12 * * * AWS_SHARED_CREDENTIALS_FILE=${HOME}/.aws/credentials ${HOME}/rotate-iam-keys.sh &>/var/log/rotate-iam-keys.log" | crontab -
+echo "01 12 * * * AWS_SHARED_CREDENTIALS_FILE=${HOME}/.aws/credentials ${HOME}/rotate-iam-keys.sh &>/var/log/rotate-iam-keys.log" | \
+crontab -u "${USER}" -
 echo "Check /var/log/rotate-iam-keys.log occasionally"
