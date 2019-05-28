@@ -8,7 +8,7 @@
 # to run:
 # curl -sL https://jujhar.com/rotate.sh | sudo bash -
 # 
-# deps: bash, curl, shasum unzip
+# deps: bash, curl, shasum and unzip
 
 set -euo pipefail
 
