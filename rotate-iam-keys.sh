@@ -8,6 +8,7 @@
 
 set -euo pipefail
 
+echo "Running aws-rotate-key: $(date)"
 # check to see if aws-rotate-key exists on the system
 if which aws-rotate-key; then
     echo ""
