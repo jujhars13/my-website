@@ -25,7 +25,7 @@ echo "Download and install ${download} binary from github"
 curl -fsSL https://github.com/Fullscreen/aws-rotate-key/releases/download/v1.0.6/${download} -o "${download}"
 unzip "${download}"
 echo "Check file checksums to ensure it not been modified"
-if ! echo "${md5sum} aws-rotate-key" | $($md5cmd) check -- ; then 
+if ! echo "${md5sum} aws-rotate-key" | $($md5cmd) --check - ; then 
     >&2 echo "File hashes do not match, call security!"
     exit 99
 fi
