@@ -6,7 +6,7 @@
 # jujhars13 2019-05-28
 # 
 # to run:
-# curl -sL https://jujhar.com/rotate.sh | sudo bash -
+# curl -sL https://jujhar.com/rotate.sh | bash -
 # 
 # deps: bash, curl, shasum and unzip
 
@@ -27,13 +27,13 @@ if ! echo "${shaSum}" | shasum --check -; then
     >&2 echo "File hashes do not match, call security!"
     exit 99
 fi
-chmod +x aws-rotate-key
-mv aws-rotate-key /usr/local/bin/aws-rotate-key
+sudo chmod +x aws-rotate-key
+sudo mv aws-rotate-key /usr/local/bin/aws-rotate-key
 
 echo "Download and install our rotate script"
 curl -fsSL https://jujhar.com/rotate-iam-keys.sh -o rotate-iam-keys.sh
-chmod +x rotate-iam-keys.sh
-mv rotate-iam-keys.sh "${HOME}" || true
+sudo chmod +x rotate-iam-keys.sh
+sudo mv rotate-iam-keys.sh "${HOME}" || true
 
 # get the username of the person calling sudo, otherwise you end up with root
 local_user=$(logname)
