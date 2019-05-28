@@ -1,6 +1,6 @@
 #!/bin/bash
 # to run
-# curl -fsSL https://jujhar.com/rotate-iam-keys-install.sh -o rotate-install.sh && sudo bash rotate-install.sh
+# curl -fsSL https://jujhar.com/rotate-iam-keys-install.sh | sudo bash -
 
 export download="aws-rotate-key-1.0.6-linux_amd64.zip"
 if [[ "$OSTYPE" == "darwin"* ]]; then
