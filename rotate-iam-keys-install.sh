@@ -3,7 +3,7 @@
 # to run every day at midday
 #
 # to run:
-# curl -fsSL https://jujhar.com/rotate-iam-keys-install.sh | sudo bash -
+# curl -sL https://jujhar.com/rotate-iam-keys-install.sh | sudo bash -
 # 
 # deps: bash, curl and unzip
 
