@@ -5,9 +5,10 @@
 # 01 12 * * * AWS_SHARED_CREDENTIALS_FILE=~/.aws/credentials ~/proj/devops/rotate-iam-keys/rotate-iam-keys.sh
 # rotate aws IAM keys
 # remember to define the full path to your $AWS_SHARED_CREDENTIALS_FILE
-echo "Running aws-rotate-key: $(date)"
+
 set -euo pipefail
 
+echo "Running aws-rotate-key: $(date)"
 # check to see if aws-rotate-key exists on the system
 if which aws-rotate-key; then
     echo ""
