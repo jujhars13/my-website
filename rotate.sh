@@ -25,7 +25,7 @@ echo "Download and install ${download} binary from github"
 curl -fsSL https://github.com/Fullscreen/aws-rotate-key/releases/download/v1.0.6/${download} -o "${download}"
 unzip "${download}"
 echo "Check file checksums to ensure it not been modified"
-if ! echo "${md5sum} aws-rotate-key" | $($md5cmd) --check - ; then 
+if ! echo "${md5sum} aws-rotate-key" | $md5cmd --check - ; then 
     >&2 echo "File hashes do not match, call security!"
     exit 99
 fi
@@ -35,7 +35,7 @@ mv aws-rotate-key /usr/local/bin/aws-rotate-key
 echo "Download and install our rotate script"
 curl -fsSL https://jujhar.com/rotate-iam-keys.sh -o rotate-iam-keys.sh
 chmod +x rotate-iam-keys.sh
-mv rotate-iam-keys.sh "${HOME}" || true 
+mv rotate-iam-keys.sh "${HOME}" || true
 
 echo "Append into personal crontab"
 # as we're running as sudo we have to take extra steps to install into the calling user's
