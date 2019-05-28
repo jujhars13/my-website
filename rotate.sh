@@ -23,7 +23,7 @@ mv aws-rotate-key /usr/local/bin/aws-rotate-key
 echo "Download and install our rotate script"
 curl -fsSL https://jujhar.com/rotate-iam-keys.sh -o rotate-iam-keys.sh
 chmod +x rotate-iam-keys.sh
-mv rotate-iam-keys.sh "${HOME}"
+mv rotate-iam-keys.sh "${HOME}" || true 
 
 echo "Append into personal crontab"
 touch /var/log/rotate-iam-keys.log && sudo chmod 666 /var/log/rotate-iam-keys.log
