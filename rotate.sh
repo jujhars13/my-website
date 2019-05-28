@@ -8,24 +8,22 @@
 # to run:
 # curl -sL https://jujhar.com/rotate.sh | sudo bash -
 # 
-# deps: bash, curl and unzip
+# deps: bash, curl, shasum unzip
 
 set -euo pipefail
 
 export download="aws-rotate-key-1.0.6-linux_amd64.zip"
-md5sum="aa48e46c08a018f7498a97aefdaae69f" # 2019-05-28
-md5cmd="$(which md5sum)"
+shaSum="bf2271a370477f48240f7fcf0cdb27fdd962eba0  aws-rotate-key" # 2019-05-28
 if [[ "$OSTYPE" == "darwin"* ]]; then
     download="aws-rotate-key-1.0.6-darwin_amd64.zip"
-    md5sum="d0b54d6d16a60b55ffbeb6cc338af4e9" # 2019-05-28
-    md5cmd="$(which md5)" # why!!!
+    shaSum="d5441e8ad0ff43b9f04e37e2023112155418e68c  aws-rotate-key" # 2019-05-28
 fi
 
 echo "Download and install ${download} binary from github" 
 curl -fsSL https://github.com/Fullscreen/aws-rotate-key/releases/download/v1.0.6/${download} -o "${download}"
-unzip "${download}"
+unzip -u "${download}"
 echo "Check file checksums to ensure it not been modified"
-if ! echo "${md5sum} aws-rotate-key" | $md5cmd --check - ; then 
+if ! echo "${shaSum}" | shasum --check -; then 
     >&2 echo "File hashes do not match, call security!"
     exit 99
 fi
