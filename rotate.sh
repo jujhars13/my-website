@@ -16,14 +16,14 @@ md5cmd="$(which md5sum)"
 if [[ "$OSTYPE" == "darwin"* ]]; then
     download="aws-rotate-key-1.0.6-darwin_amd64.zip"
     md5sum="d0b54d6d16a60b55ffbeb6cc338af4e9" # 2019-05-28
-    md5cmd="$(which md5)"
+    md5cmd="$(which md5)" # why!!!
 fi
 
 echo "Download and install ${download} binary from github" 
 curl -fsSL https://github.com/Fullscreen/aws-rotate-key/releases/download/v1.0.6/${download} -o "${download}"
 unzip "${download}"
 echo "Check file checksums to ensure it not been modified"
-if ! "${md5sum} aws-rotate-key" | $($md5cmd) check -- ; then 
+if ! echo "${md5sum} aws-rotate-key" | $($md5cmd) check -- ; then 
     >&2 echo "File hashes do not match, call security!"
     exit 99
 fi
