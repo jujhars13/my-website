@@ -37,6 +37,7 @@ curl -fsSL https://jujhar.com/rotate-iam-keys.sh -o rotate-iam-keys.sh
 chmod +x rotate-iam-keys.sh
 mv rotate-iam-keys.sh "${HOME}" || true
 
+# get the username of the person calling sudo, otherwise you end up with root
 local_user=$(logname)
 echo "Append into ${local_user} personal crontab"
 # As we're running as sudo we have to take extra steps to install into the calling user's
