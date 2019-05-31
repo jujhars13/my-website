@@ -46,7 +46,7 @@ echo "Append into ${local_user} personal crontab"
 #
 # NB if you get a "crontab: tmp/tmp.12216: Operation not permitted" type error on your mac it's because you don't have enough permissions
 sudo touch /var/log/rotate-iam-keys.log && sudo chmod 666 /var/log/rotate-iam-keys.log
-(crontab -u "$local_user" -l || true; echo "01 12 * * * AWS_SHARED_CREDENTIALS_FILE=${HOME}/.aws/credentials ${HOME}/rotate-iam-keys.sh > /var/log/rotate-iam-keys.log 2>&1") | \
+(sudo crontab -u "$local_user" -l || true; echo "01 12 * * * AWS_SHARED_CREDENTIALS_FILE=${HOME}/.aws/credentials ${HOME}/rotate-iam-keys.sh > /var/log/rotate-iam-keys.log 2>&1") | \
 crontab -u "$local_user" -
 
 echo "" && echo "Installed, remember to check /var/log/rotate-iam-keys.log occasionally"
