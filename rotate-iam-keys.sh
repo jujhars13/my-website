@@ -28,7 +28,7 @@ echo "Started all IAM key rotation $(date +%Y-%m-%d_%H-%M-%S)"
 
 for profile in $profiles; do
 	echo -e "\t Rotating IAM key for ${profile}"
-	$(which aws-rotate-key) --profile "${profile}" -y
+	/usr/local/bin/aws-rotate-key --profile "${profile}" -y
 done
 
 echo "Finished all IAM key rotations $(date +%Y-%m-%d_%H-%M-%S)"
