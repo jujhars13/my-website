@@ -35,7 +35,7 @@ sudo mv aws-rotate-key /usr/local/bin/aws-rotate-key
 echo "Download and install our rotate script"
 curl -fsSL https://jujhar.com/rotate-iam-keys.sh -o rotate-iam-keys.sh
 sudo chmod +x rotate-iam-keys.sh
-sudo mv rotate-iam-keys.sh "${HOME}" || true
+sudo mv -f rotate-iam-keys.sh "${HOME}" || true
 
 # get the username of the person calling sudo, otherwise you end up with root
 local_user=$(logname)
