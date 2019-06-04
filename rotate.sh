@@ -3,7 +3,7 @@
 # AWS IAM key rotator and set it up in your personal crontab 
 # to run every day at midday
 #
-# jujhars13 2019-05-28
+# jujhars13 2019-06-04
 # 
 # to run:
 # curl -sL https://jujhar.com/rotate.sh | bash -
