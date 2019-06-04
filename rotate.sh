@@ -21,7 +21,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     shaSum="d5441e8ad0ff43b9f04e37e2023112155418e68c  aws-rotate-key" # 2019-05-28
 fi
 
-echo "Download and install ${download} binary from github" 
+echo "Download and install ${download} binary from Github" 
 curl -fsSL https://github.com/Fullscreen/aws-rotate-key/releases/download/v1.0.6/${download} -o "${download}"
 unzip -u "${download}"
 echo "Check file checksums to ensure it not been modified"
