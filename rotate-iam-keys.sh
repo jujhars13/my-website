@@ -9,13 +9,13 @@
 set -euo pipefail
 
 echo "Running aws-rotate-key: $(date)"
-# check to see if aws-rotate-key exists on the system
-if which aws-rotate-key; then
-    echo ""
-else
-	>&2 echo "Could not find the aws-rotate-key utility on this system"
-	exit 2
-fi
+# # check to see if aws-rotate-key exists on the system
+# if which aws-rotate-key; then
+#     echo ""
+# else
+# 	>&2 echo "Could not find the aws-rotate-key utility on this system"
+# 	exit 2
+# fi
 
 if [[ -z "${AWS_SHARED_CREDENTIALS_FILE}" ]]; then
 	>&2 echo "\$AWS_SHARED_CREDENTIALS_FILE not set"
