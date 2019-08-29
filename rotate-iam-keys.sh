@@ -1,6 +1,6 @@
 #!/bin/bash
 # download util from here using brew tap fullscreen/tap or directly from https://github.com/Fullscreen/aws-rotate-key
-# install into your user's crontab by `crontab -e` 
+# install into your user's crontab by `crontab -e`
 # then insert the following line into your crontab, adjusting the paths to your dirs:
 # 01 12 * * * AWS_SHARED_CREDENTIALS_FILE=~/.aws/credentials ~/proj/devops/rotate-iam-keys/rotate-iam-keys.sh
 # rotate aws IAM keys
@@ -28,7 +28,7 @@ echo "Started all IAM key rotation $(date +%Y-%m-%d_%H-%M-%S)"
 
 for profile in $profiles; do
 	echo -e "\t Rotating IAM key for ${profile}"
-	/usr/local/bin/aws-rotate-key --profile "${profile}" -y
+	! /usr/local/bin/aws-rotate-key --profile "${profile}" -y
 done
 
 echo "Finished all IAM key rotations $(date +%Y-%m-%d_%H-%M-%S)"
