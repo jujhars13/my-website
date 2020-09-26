@@ -7,14 +7,14 @@ My website https://jujhar.com
 ```bash
 # to server on localhost:4000 and continuously transpile output
 docker run -it --rm \
-  -v ${PWD}/site:/srv/jekyll \
+  -v ${PWD}/docs:/srv/jekyll \
   -p 4000:4000 \
   jekyll/jekyll \
   jekyll serve --watch
 
 # OPTIONAL use the awesome `reload` which auto-refreshes your browser on change using websockets
 # `npm install -g reload`
-(cd site/_site && reload -e "html|js|css|json")
+(cd docs/_site && reload -e "html|js|css|json")
 ```
 
 ## Build and deploy
