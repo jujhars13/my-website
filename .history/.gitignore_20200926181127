@@ -2,8 +2,8 @@
 *~
 *.swp
 *.swo
-site/_site/
+_site/
 .idea/
 .sass-cache/
 .jekyll-metadata
-site/node_modules/
+node_modules/
