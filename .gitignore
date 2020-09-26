@@ -2,10 +2,10 @@
 *~
 *.swp
 *.swo
-docs/_site
 .idea/
-.sass-cache/
-.jekyll-metadata
+.history/
+docs/_site
+docs/.sass-cache/
+docs/.jekyll-metadata
 docs/node_modules
-.history
 docs/.jekyll-cache

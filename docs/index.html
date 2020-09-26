@@ -24,11 +24,11 @@ title: jujhar.com
         </ul>
     </article>
 </div>
-    <article>
-        <p>Nothing much to see here, just a playground for me to try things out and experiment with:</p>
-    </article>
-
-{% for post in site.posts %}
-<li> <a href="{{ post.url }}">{{ post.title }}</a></li>
-{% endfor %}
-<li><a href="jhsd-history/">Journey Into the Heart of Sikh Dharma Course - History</a></li>
+<article>
+    <p>Nothing much to see here, just a playground for me to try things out and experiment with:</p>
+    {% for post in site.posts %}
+    <li> <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+    <li><a href="jhsd-history/">Journey Into the Heart of Sikh Dharma Course - History</a></li>
+   
+</article>
