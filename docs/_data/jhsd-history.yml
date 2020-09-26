@@ -1,0 +1,290 @@
+- date: 2500-1500 BC
+  sequence: 1
+  title: Pre Aryan civilised (Indus) Society
+  description: A bronze age civilisation that had settled in the fertile indus valley.  Often referred to as Dravidian culture, they worshipped many Gods and were quite matriarchal in their worship.
+  image: indus-valley-civilisation.jpg
+
+- date: 1500 BC
+  sequence: 2
+  title: Arrival of Aryans and Rise of Bhramanism
+  description: Arayan's arrive from the Pontic Steppe (modern day Ukraine) into North India and settle.  They create a caste system to place themselves above the Dravidian natives and also rehash existing local religions which forms the basis of what we know as modern Hindusim.
+  image: bhramanism.jpg
+
+- date: 500 - 200 BC
+  sequence: 3
+  title: Persian and Greek Invaders
+  description: First come the Persians under Darius and then follow the Greeks under Alexander the Great.
+  image: persian-empire.jpg
+
+#- date: 260 BC
+#  title: The rise of Buddhism in India
+#  description: Because of Emperor Asoka, Buddhism comes to dominate india with big focus in North India, particularly modern day Pakistan.  We see the earliest examples of the Parakrit (Prakrit) language(s) from which Gurmukhi and Pali derive a lot from.
+#  image: bhuddism.jpg
+
+- date: ~1000 AD - 1600 AD
+  sequence: 4
+  title: Arrival of Islam
+  description: Islam had been coming into India via traders since it's founding 500 years previous and there were small violent incursions before that.  However circa 1000 AD we see a big push by Mahmud of Ghazni has the first big push opening up the floodgates for wave after wave of marauding Muslim conquerors which have a massive hold on India all that way up to the first Sikh Kingdom in the 18th Century.  For the human Gurus, their first encounter is with Akhbar and their last with Aurangzeb
+  image: islam.png
+
+#- date: ~1200 AD to 1300 AD
+#  title: Attack of the Mongols
+#  description: Mongolian hordes attack numerous times through this period but are held back by the Mughal regime and never really take hold.  This is one of the last big genetic invasians into India.  Punjab being the doormat of India is where most invaders inseminated.  Punjabis are a mongrel mix of Dravidian, Greek, Ukranian, Persian, Afghan and Mongolian genes.
+#  image: mongolian.jpg
+
+- date: ~1400
+  sequence: 5
+  title: Rise of Sufism and the Bhakti Movement
+  description: The Sufi and Bhakti(Devotianal) movements which stem from Islam and Hinduism (and often cross) place emphasis on love, devotion, humilty...  They are monitheistic and universal, accepting all of humankind (melting away barriers of cast/creed/color).  Sheikh Farid (Sufi) and Bhagat Ramanand (Bhakti) and his students (Kabir, Ravidas, Pipa, Dhanna...) all feature in Gurbani.
+  image: sufi.jpg
+
+- date: 1469
+  sequence: 6
+  title: Birth of Guru Nanak
+  description: "
+   <p>At the time India is suffering under tyranny and hypocrisy.  Into these conditions. The first master is born.</p>
+   <p>
+   <li>He is a contemporary of Babur, one of the more nastier Mughal Emperors</li>
+   <li>His sister becomes the first follower (Sikh) and adores him.</li>
+   <li>His best friend is a Muslim</li>
+   <li>He visits and saves Kauda the cannibal and Sajjan the murderer - proving that nobody is wretched enough for salvation</li>
+   <li>His son becomes a master Udasi Yogi on his command.</li>
+   </p>"
+  stories:
+    - title: Quazi Rukandeen - the first Sikh Martyr
+    - title: Guru Nanak Dev Jee at Hardvaar
+    - title: Guru Nanak Dev Jee's gift to Mardana
+  image: g1.jpg
+
+- date: 1552
+  sequence: 7
+  title: Guru Amar Daas Jee is Guru
+  description: "
+   <p>Becomes Guru at 73!, dies at the ripe age of 95!</p>
+   <p>Guru Amar Daas Jee really works hard for gender equality</p>
+   <p>
+     <li>He preaches against Sati</li>
+     <li>Encourages re-marrying of widows</li>
+     <li>Purdah is discouraged</li>
+     <li>Condemns Female Infanticide</li>
+     <li>56/146 of his preachers are women</li>
+   </p>"
+  stories:
+    - title: Anand Sahib
+  image: g3.jpg
+
+- date: 1604
+  sequence: 8
+  title: Aaad Granth Sahib jee is completed and venerated
+  description: Sabad Guru is compiled into Aaad Granth Sahib Jee (Sabad Guru, Surat Dhun Chela) by Guru Arjan Dev jee, installed and venerated in the Harimandir Sahib.
+  image: g11-before-they-were-g11.jpg
+
+- date: 1606
+  sequence: 9
+  title: Shaheedi of Guru Arjan Dev Jee
+  description: Guru Arjan Dev Jee is arrested by Jahangir and asked to convert to Islam.  He is brutally tortured to death by the Regime.
+  image: g5.jpg
+
+- date: ~1630s
+  sequence: 10
+  title: First battles under Guru Hargobind Sahib
+  description: The biggest and strongest of all the gurus (rumoured to be over 7' tall) has several battles where he kicks serious butt. <blockquote><p> 'Internally a hermit, and externally a prince. Arms mean protection to the poor and destruction of the tyrant. Baba Nanak had not renounced the world but had renounced Maya</p></blockquote>'
+  stories:
+    - title: Pende Khan, the Guru's training partner
+    - title: Guru can re-write destiny
+    - title: Guru frees 52 prisoners of conscience
+    - title: Guru sahib invents the taus
+    - title: Guru Sahib and Mata Kaula
+  image: g6.jpg
+
+- date: 1630
+  sequence: 11
+  title: Mata Kaulan
+  description: Qazi Rustam Khan's daughter Kaulan fell in love with the Guru via his Bani via Sain Mian Mir.  Her father threatened to beat her to death if she continued to recite the bani.  She ran away from home and the Guru built her a residence near Harimandir Sahib - Kaulsar.
+  image: kaulsar.jpg
+
+- date: 1644
+  sequence: 12
+  title: Guru Har Rai Sahib becomes Guru
+  description: Ecologist, master Healer, animal lover. Guru Sahib really enshrines the healing arts into the Sikh way of life. Guru Har Rai Sahib became the Guru at the age of 14. He was not only a spiritual Guru, he was also a great military leader, environmentalist and physician. As a military leader, he led an army of 2,200 soldiers. As an environmentalist, he maintained a veterinary clinic and nature reserves. As a physician, he set up a free hospital at Kiratpur Sahib in Punjab and promoted herbal remedies. As a Guru, he promoted respect for freedom, respect for your surroundings and above all respect for integrity.
+  stories:
+    - title: Guru sahib breaking the flower
+  image: g7.jpg
+
+- date: 1675
+  sequence: 13
+  title: Martyrdom of Guru Tegh Bahadur Sahib
+  description: The most beloved Guru has his Sikhs tortured in front of him and is beheaded by standing up for a faith other than his own.
+  stories:
+    - title: Bhai Mati Daas
+    - title: Guru gives his chola to the poor
+  image: bhai-mati-daas.jpg
+
+- date: 1699
+  sequence: 14
+  title: Birth of the Khalsa
+  description: The pure ones are anointed.
+  image: khalsa.jpg
+
+- date: 1705
+  sequence: 15
+  title: Sikh Battles and Shaheedi of Chaar Sahibzaade
+  description: The Guru fights many campaigns against the regime and local Hindu hill rajas.  His two eldest sons are killed in the battle of Chamkaur.  His two youngest (just 7 and 5) are tortured to death
+  stories:
+    - title: Shaheedi of the two younger Sahibzaade
+    - title: Bibi Sharan Kaur Martyrs herself to conduct the funeral rights for the two elder sons
+    - title: Bhai Bachiter Singh
+  image: sahibzaade.jpg
+
+- date: 1705
+  sequence: 16
+  title: Harsharan Kaur - the last martyr of Chamkaur
+  description: As G10 is escaping from the Chamkaur massacere he meets Harsharan Kaur on the way and asks her to perform the last rights of all the dead warriors at great personal risk...
+  image: bibiharsharankaur.jpg
+
+- date: 1708
+  sequence: 17
+  title: Last of the Human Gurus and the Instantiation of Sabd Guru
+  description: "The corporeal form of Sabd Guru - Sri Guru Granth Sahib Jee is firstly compiled by Guru Gobind Singh Jee by heart and then made the eternal Guru of the Sikhs just before Guru Gobind Singh Jee passes away. The two main schools of Gurbani come from the two scribes - Bhai Mani Singh Jee and Baba Deep Singh Jee
+  <blockquote><p>
+                                Guru Granth kalyug bhyo Sri Guru roop samaan
+                                Das Patshahian roop eh Guru Granth ji jaan
+  </p></blockquote> GS - PP"
+  image: sabad-guru.jpg
+
+- date: 1708
+  sequence: 18
+  title: Banda Singh Bahadur
+  description: A yogi, then chosen by G10 to be a military commander for him and continues the fight against tyranny after G10 is gone.  Eventually captured in 1715 around 2000 Sikhs were tortured and killed before him before he himself is brutally tortured and killed for refusing to accept Islam.
+  image: banda-singh.jpg
+
+- date: 1746
+  sequence: 19
+  title: Smaller Holocaust
+  description: "Lakhpat Rai, Mir Manu and Ahmed Shah Duranni(Abdali) kills over 10,000 Sikhs over many merciless campaign of battles and torture.  During this period we lost famous Sikhs like Bhai Taru Singh and Bhai Mani Singh.  People were paid rewards for each Sikh head that the brought to the regime.  Children were butchered in front of their mothers in an attempt to convert them to Islam.
+  <p>In 1757 Harimandir Sahib blown up and the sacred pool filled with entrails by Ahmed Sha Abdali.</p>"
+  image: chota-ghalughara.png
+
+- date: 1762
+  sequence: 20
+  title: Larger Holocaust
+  description: Ahmed Shah Duranni Slaughters nearly half the fledgling Sikh population.  At the time, the Sikh population is estimated to have been about 100,000.  Ahmed Shah Duranni slaughters about 25,000 - 30,000 after mercilessly chasing a caravan of Sikhs (mostly elderly, women and children) who were trying to escape his tyranny.  During this time it is said that the Sikhs lost so much literature, history and other cultural items.
+  image: vadda-ghalughara.jpg
+
+- date: 1707 - 1799
+  sequence: 21
+  title: Misl (Confederacy) Period
+  description: Sikhs who have been reeling from the Mughal regime's tyranny formed into 12 small autonomous Jathas in order to survive.  They meet about once a year at a <strong>Sarbatt(all) Khalsa</strong>  These were desperate times for survival for the Sikh nation.
+  image: hari-singh-nalwa.jpg
+
+- date: 1799 - 1854
+  sequence: 22
+  title: Sikh Kingdom
+  description: Ranjit Singh of the Sukerchakia Misl brings together the 11 other missals and founds the first real <strong>(Secular)</strong> Sikh Kingdom.  He kicks Duranni's butt.  He rules from Kabul to Dehli.  It is a Golden age for the Sikhs. A time of peace and expansion not only for the Sikhs but for all religions.  Unfortunately the British arrive and back-stab him, kidnap his son and take over the empire.
+  image: ranjit-court.jpg
+
+- date: 1845 - 1947
+  sequence: 23
+  title: Arrival of the British
+  description: "The British did many things to and with the Sikhs.  Initially they had their asses handed to them several times by the Sikhs, eventually through attrition and nefarious means they took over.
+    <li> Annexed and took over the Sikh Kingdom </li>
+    <li> Rewrote and re-defined our way of life </li>
+    <li> Persecuted the Sikhs </li>
+    <li> Fought against the Sikhs and the later fought with the Sikhs </li>
+    <li> Took control of all of our Gurdwaras away from the Sikhs </li>
+    <li> Re-enforced the caste system </li>
+    <li> Take a lot of our historical artefacts and scriptures </li>"
+  stories:
+      - title: Battle of Saraghari [1897] 21 vs 10,000
+  image: kohinoor.jpg
+
+- date: ~1870s
+  sequence: 24
+  title: Singh Sabha Movement
+  description: At the time of the late 1800’s it was clear that certain areas of Sikhism were lapsing back into Hinduism. Sikhs who had recently converted were now returning to the Hindu fold uncertain of the future of Sikhism. A British observer Sir Richard Temple commented “ Sikhism is on the decline, a spent force, the Sikhs are the most uneducated people in the Punjab.” The British exploited the lack of political knowledge of the Sikhs by setting up Christian missionaries. They also opened a Christian missionary school in the holy city of Amritsar, striking at the very heart of Sikhi.  Aside from many other things the Singh Sabha movement also get the Punjabi language taught as an official language in the Punjab.
+  image: giyani-dit-singh.jpg
+
+- date: 1925
+  sequence: 25
+  title: Akali Movement and 1925 Gurdwara Reform Act and rise of the SGPC
+  description: In 1925, after further demands and protests from SGPC, a new "Sikh Gurdwara Bill" was introduced in the Punjab Legislative Assembly. It came into force on 1 November 1925, and awarded the control of all the historical shrines to SGPC. A tribunal was set up to judge the disputes, and all the Akali prisoners were released. By this time, an estimated 30,000 people had been arrested by the British Government; over 400 had been killed and another 2,000 had been injured during the movement.[15] The movement fuelled the anti-British Government feeling among the Sikhs. It also led to an anti-Hindu sentiment among a section of Sikhs, who identified the pro-Udasi mahants such as Narain Das and their supporters with the Hindu community.
+  stories:
+    - title: Saka Panja Sahib
+  image: akali-movement.jpg
+
+- date: 1908
+  sequence: 26
+  title: Introduction of the Harmonium
+  description: The Harmonium was introduced by English priests who used it in their prostelysation.  Unfortunately our Sikhs also adopted it and we saw the decline of the incredibly deep and spiritual art of Gurmatsangeet.
+  image: harmonium.jpg
+
+- date: 1910
+  sequence: 27
+  title: WW1 & WW2
+  description: "The British Commonwealth leaned heavily on the Sikhs to help them during both wars.  They really respected our abilities and our fearlessness.  They actively encouraged Sikhs to take Amrit as they understood that our devotion made us incredible.  As a result Sikhs in the UK are renowned and respected.
+  <blockquote><p>'Finally, we that live on can never forget those comrades who in giving their lives gave so much that is good to the story of the Sikh Regiment. No living glory can transcend that of their supreme sacrifice, may they rest in peace.
+              In the last two world wars 83,005 turban wearing Sikh soldiers were killed and 109,045 were wounded. They all died or were wounded for the freedom of Britain and the world and during shell fire, with no other protection but the turban, the symbol of their faith.'</p>
+              <p>- General Sir Frank Messervy KCSI, KBE, CB, DSO</p></blockquote>"
+  image: flanders.jpg
+
+- date: 1947
+  sequence: 28
+  title: Independence & Partition
+  description: "
+  <p>Post Indian independence the Mulsims lead by Jinnah petitioned the British to give them their own state before they handed India back.  The British pretty much drew a line down the middle of Punjab and declared one side as Pakistan and one side as India.  In the riots which preceded the partition in the Punjab Province, between 200,000 and 500,000 people were killed in the retributive genocide between the religions. UNHCR estimates 14 million Hindus, Sikhs and Muslims were displaced during the partition; it was the largest forced mass migration in human history.</p>"
+  image: partition.jpg
+
+- date: 1950 - 1984
+  sequence: 29
+  title: Punjabi Subha & Anandpur Sahib Resolution
+  description: "
+    <p>In the independence struggle <strong>77%</strong> of people to be hanged for independence were Sikh, <strong>78%</strong> with life imprisonment were Sikh. Even though Sikhs were only 1.5% of India's population.  Sikhs got a raw deal despite their sacrifices and promises made to them. </p>
+    <p>
+    Sikhs wanted as part of Anandpur Sahib resolution (1973)
+    <li>Their water back</li>
+    <li>End of caste discrimination</li>
+    <li>Punjabi Language</li>
+    <li>Under Indian constitution, Sikhi was a part of Hinduism (still is!).  You cannot marry as a Sikh and have to be declared Hindu first</li>
+    <li>Wanted our own radio station to broadcast Gurbani...</li>
+  </p>
+  <p>Sikhs really become a thorn in the Government's side</p>
+  "
+  image: anandpur-resolution-kapur-singh.jpg
+
+- date: 1984
+  sequence: 30
+  title: 1984 and Dehli Massacre
+  description: "<p>In 1975 Indira Gandhi is found guilty of electoral Fraud.  She declares electoral fraud and throws the judiciary in jail [elaborate]...  Again Sikhs are the one's to protest and stand up for the rest of India and become a thorn in her side over several issues.  Eventually she sends in the army to crush the Sikhs.</p>
+  <p>
+  <li>Operation Bluestar on the 378th Martyrdom of G5, Harimandir Sahib was packed</li>
+  <li>100,000 Troops were mobilised into Punjab vs a few hundred combatant Sikhs</li>
+  <li>Total media Blackout</li>
+  <li>Punjab Borders blocked, in or out</li>
+  <li>Tanks, Commandos, Artillery and RPG's</li>
+  </p>
+  <h3>Dehli Massacre</h3>
+  <p>In Oct 1984, Indira is killed by her two Sikh bodyguards.  The Government co-ordinates and facilitates anti-Sikh riots in Dehli.
+  <li>Gurdwaras across Dehli were attacked</li>
+  <li>Sikh Business and homes were set on fire</li>
+  <li>Sikh Men had their hair cut by mobs and then set on fire</li>
+  <li>Sikh Women were raped</li>
+  The 2011 WikiLeaks cable leaks revealed that the United States was convinced about the complicity of the Indian government ruled by the Indian National Congress in the riots, and termed it as 'opportunism' and 'hatred' of the Congress government against Sikhs.
+  </p>
+    <p>The SSS has his first heart attack after Akaal Takht is attacked.</p>
+  <p>Dec 17th 2018, Sajjan Kumar (Indian politician) was sentenced for life for his involvment in the anti-Sikh riots.</p>"
+  image: 1984.jpg
+
+- date: ~1960
+  sequence: 31
+  title: Second Major Ex-flux of Sikhs to western Diaspora
+  description: We start to see the second major Ex-flux of Sikhs to form the Sikh Diaspora.  In particular the UK, Canada and the US.  The diaspora in Africa, and far East Asia have been around for about 100 years now.  Sikhs have integrated in really well in the UK and Canada and is currently flourishing abroad.
+  image: queens-guard-sikh-soldiers.jpg
+
+- date:  Present Day
+  sequence: 32
+  title: Present Day
+  description: "We see a big resurgence of the Sikh spirit, especially in the move to the Aquarian Age.  Not all of it is as smooth as we like, but it is happening.
+    Currently there is a resurgence in Punjab and the Sikh nation is trying to wrest control from the now corrupt SGPC and take control of their destiny.  The SGPC has overstepped it's remit and is making decisions that it has no real authority to do.  Sikhs are trying to stay true to the Golden chain.
+    <p><strong>Aad Sach. Jugaad Sach. Hai Bhi Sach. Nanak, Hosi Bhi Sach</strong></p>
+    "
+  image: guruganesha_laughing.jpg

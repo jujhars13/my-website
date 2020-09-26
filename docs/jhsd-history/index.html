@@ -1,0 +1,64 @@
+---
+
+title: JHSD [2019] - Sikh History
+cachebuster: 5
+
+---
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href='//fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400,700' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="css/reset.css?_cache={{ page.cachebuster }}">
+    <!-- CSS reset -->
+    <link rel="stylesheet" href="css/style.css?_cache={{ page.cachebuster }}">
+    <!-- Resource style -->
+    <script src="js/modernizr.js?_cache={{ page.cachebuster }}"></script>
+    <!-- Modernizr -->
+
+    <title>{{ page.title }}</title>
+</head>
+<body>
+<header>
+    <h1>{{ page.title }}</h1>
+</header>
+<section id="cd-timeline" class="cd-container">
+    {% for event in site.data.jhsd-history %}
+    <div class="cd-timeline-block">
+        <div class="cd-timeline-img cd-picture">
+            <img src="img/cd-icon-picture.svg" alt="Picture">
+        </div>
+
+        <div class="cd-timeline-content">
+            <h2><span class='sequence'>{{ event.sequence }}.</span> {{ event.title }}</h2>
+            <article class="readmore">{{ event.description }}
+                {% if event.image %}
+                <div class="media">
+                    <img src="img/dist/{{ event.image }}" alt="{{ event.title }}">
+                </div>
+                {% endif %}
+                {% if event.stories %}
+                {% for story in event.stories %}
+                    <li class="story"><em>Story:</em> {{ story.title }}</li>
+                {% endfor %}
+                {% endif %}
+
+            </article>
+            <span class="cd-date">{{ event.date }}</span>
+        </div>
+        <!-- cd-timeline-content -->
+    </div>
+    <!-- cd-timeline-block -->
+    {% endfor %}
+
+</section>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/jquery-1.11.0.min.js"><\/script>')</script>
+<script src="js/main.js?_cache={{ page.cachebuster }}"></script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bike Store</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+
+    <script src="scripts/app.js"></script>
+    <link href="resources/prodList.css" rel="stylesheet">
+</head>
+
+<body ng-app="bikeStore" class="container-fluid">
+
+    <div class="jumbotron">
+        <div class="container text-center">
+            <h1>Bike Store</h1>
+            <p>Bikes, Bikes & More Bikes!</p>
+        </div>
+    </div>
+
+    <div ng-controller="prodList">
+
+        <!-- filters -->
+        <div class="col-md-2">
+            <div class="panel panel-default">
+                
+                <div class="panel-heading">Filter By:</div>
+                
+                <div ng-repeat="attr in attributesToFilter" class="panel-body">
+                    <h4 class="capitalise">{{dfts}}</h4>
+
+                    <div ng-repeat="df in dataFilters | filter:{ key: attr }">
+                        <input type="checkbox" value="df.value" ng-click="toggleFilter(df.key, df.value)" ng-checked="df.state">
+                        <span class="capitalise">{{df.value}}</span>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- products -->
+        <div class="col-md-10 prodList">
+            <div ng-repeat="p in filteredProducts" class="col-sm-4">
+                <div class="panel panel-primary prod">
+
+                    <div class="panel-heading">{{p.name}}</div>
+                    <div class="panel-body">
+                        <img ng-src="{{p.image.thumb}}" class="img-responsive" style="width:100%">
+                    </div>
+                    <div class="panel-body desc">
+                        {{p.description}}
+                    </div>
+                    <div class="panel-footer">
+                        Class:&nbsp;
+                        <span ng-repeat="c in p.class" class="capitalise">
+                            {{c}}<span ng-show="{true: '', false: ', '}[$last]">,</span>
+                        </span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
