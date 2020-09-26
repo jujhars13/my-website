@@ -1,9 +1,0 @@
-# other cruft
-*~
-*.swp
-*.swo
-site/_site/
-.idea/
-.sass-cache/
-.jekyll-metadata
-node_modules/

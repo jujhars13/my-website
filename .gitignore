@@ -7,3 +7,4 @@ site/_site/
 .sass-cache/
 .jekyll-metadata
 site/node_modules/
+.history
