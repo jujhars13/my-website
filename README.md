@@ -1,6 +1,6 @@
 # Jujhar.com
 
-My website https://jujhar.com
+My website [https://jujhar.com])()
 
 ## Local Development
 
@@ -19,6 +19,6 @@ docker run -it --rm \
 
 ## Build and deploy
 
-This site is a [Jekyll static site](https://jekyllrb.com/) and will be auto deployed via Github pages to [https://devsecops.jujhar.com]() upon commit to master.
+This site is a [Jekyll static site](https://jekyllrb.com/) and will be auto deployed via Github pages upon commit to master.
 
 If you're not publishing to Github pages use this command to one time build assets into `_site` and then publish to a S3 static bucket or old school server.
