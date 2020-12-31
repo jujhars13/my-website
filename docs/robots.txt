@@ -1,3 +1,5 @@
 Sitemap: http://jujhar.com/sitemap.xml
 User-agent: *
 Crawl-delay: 2
+
+Disallow: /tests/
