@@ -36,7 +36,7 @@
         const divTitle = document.getElementById("test-title");
         console.log(artistId);
         divBlock.innerHTML = `<strong>Loading from https://staging-apis.sikhnet.com/v4/gmc/artist/${artistId}...</strong>`;
-        fetch(`https://staging-apis.sikhnet.com/v4/gmc/artist/${artistId}`)
+        return fetch(`https://staging-apis.sikhnet.com/v4/gmc/artist/${artistId}`)
           .then((response) => response.json())
           .then((rawData) => {
             divTitle.innerText = rawData.name;
