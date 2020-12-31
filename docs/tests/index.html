@@ -21,9 +21,9 @@
     <button class="btn" value="46370">Ajeet Kaur</button>
     <button class="btn" value="3400">Bhai Harjinder Singh (Srinagar)</button>
     <button class="btn" value="9980">Bhai Harjinder Singh Lallie</button>
-    <hr>
+    <hr />
     <h3 id="test-title"></h3>
-    <div id="test-block" style="max-width:400px;"></div>
+    <div id="test-block" style="max-width: 400px"></div>
   </body>
 
   <script defer>
@@ -38,13 +38,13 @@
 
     function loadFromApi(artistId = 2960) {
       const divBlock = document.getElementById("test-block");
-      const divTitle= document.getElementById("test-title");
-      divBlock.innerHTML =
-        "<strong>Loading from https://staging-apis.sikhnet.com/v4/gmc/artist/${artistId}...</strong>";
+      const divTitle = document.getElementById("test-title");
+      divBlock.innerHTML = `<strong>Loading from https://staging-apis.sikhnet.com/v4/gmc/artist/${artistId}...</strong>`;
+
       fetch(`https://staging-apis.sikhnet.com/v4/gmc/artist/${artistId}`)
         .then((response) => response.json())
         .then((rawData) => {
-          divTitle.innerText=rawData.name;
+          divTitle.innerText = rawData.name;
           divBlock.innerHTML = `${JSON.stringify(rawData)}`;
           return rawData;
         })
