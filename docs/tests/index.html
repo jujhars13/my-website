@@ -21,6 +21,7 @@
     <button class="btn" value="46370">Ajeet Kaur</button>
     <button class="btn" value="3400">Bhai Harjinder Singh (Srinagar)</button>
     <button class="btn" value="9980">Bhai Harjinder Singh Lallie</button>
+    <button class="btn" value="998099">error</button>
     <hr />
     <h3 id="test-title"></h3>
     <div id="test-block" style="max-width: 400px"></div>
@@ -28,27 +29,24 @@
 
   <script defer>
     const buttons = document.getElementsByClassName("btn");
-    console.log(buttons);
-    Array.prototype.forEach.call(buttons, (element) => {
-      element.onclick = function () {
-        console.log(element.value);
-        loadFromApi(parseInt(element.value));
+    Array.prototype.forEach.call(buttons, (button) => {
+      button.onclick = () => {
+        const artistId = button.value;
+        const divBlock = document.getElementById("test-block");
+        const divTitle = document.getElementById("test-title");
+        console.log(artistId);
+        divBlock.innerHTML = `<strong>Loading from https://staging-apis.sikhnet.com/v4/gmc/artist/${artistId}...</strong>`;
+        fetch(`https://staging-apis.sikhnet.com/v4/gmc/artist/${artistId}`)
+          .then((response) => response.json())
+          .then((rawData) => {
+            divTitle.innerText = rawData.name;
+            divBlock.innerHTML = `${JSON.stringify(rawData)}`;
+            return rawData;
+          })
+          .catch((err) => console.error);
       };
     });
 
-    function loadFromApi(artistId = 2960) {
-      const divBlock = document.getElementById("test-block");
-      const divTitle = document.getElementById("test-title");
-      divBlock.innerHTML = `<strong>Loading from https://staging-apis.sikhnet.com/v4/gmc/artist/${artistId}...</strong>`;
-
-      fetch(`https://staging-apis.sikhnet.com/v4/gmc/artist/${artistId}`)
-        .then((response) => response.json())
-        .then((rawData) => {
-          divTitle.innerText = rawData.name;
-          divBlock.innerHTML = `${JSON.stringify(rawData)}`;
-          return rawData;
-        })
-        .catch((err) => console.error);
-    }
+    function loadFromApi(artistId = 2960) {}
   </script>
 </html>
