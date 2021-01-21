@@ -6,7 +6,7 @@
   "dependencies": {},
   "devDependencies": {
     "grunt": "^0.4.5",
-    "grunt-contrib-imagemin": "^1.0.0"
+    "grunt-contrib-imagemin": "^4.0.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
