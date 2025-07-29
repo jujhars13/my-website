@@ -21,6 +21,7 @@ sudo dnf -y install dnf-plugins-core
 sudo dnf config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
 
 # Adjust release server version in the path as it will not match with Amazon Linux 2023
+# so we'll hard code it to Alamlinux 9/Centos 9
 sudo sed -i 's/$releasever/9/g' /etc/yum.repos.d/docker-ce.repo
 
 # Install as usual
