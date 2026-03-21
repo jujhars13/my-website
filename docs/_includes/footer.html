@@ -21,3 +21,81 @@ ga('create', 'UA-23579994-1', 'jujhar.com');
 ga('send', 'pageview');
 
 </script>
+
+<script>
+// Enhance native audio elements with a large, mobile-friendly custom player
+document.querySelectorAll('audio[controls]').forEach(function(audio) {
+  audio.classList.add('custom-enhanced');
+  audio.removeAttribute('controls');
+
+  var player = document.createElement('div');
+  player.className = 'audio-player';
+
+  var btn = document.createElement('button');
+  btn.className = 'play-btn';
+  btn.setAttribute('aria-label', 'Play');
+  btn.innerHTML = '&#9654;';
+
+  var track = document.createElement('div');
+  track.className = 'player-track';
+
+  var bar = document.createElement('div');
+  bar.className = 'progress-bar-container';
+  var fill = document.createElement('div');
+  fill.className = 'progress-bar-fill';
+  bar.appendChild(fill);
+
+  var time = document.createElement('div');
+  time.className = 'player-time';
+  time.textContent = '0:00 / 0:00';
+
+  track.appendChild(bar);
+  track.appendChild(time);
+  player.appendChild(btn);
+  player.appendChild(track);
+
+  audio.parentNode.insertBefore(player, audio.nextSibling);
+
+  function fmt(s) {
+    var m = Math.floor(s / 60);
+    var sec = Math.floor(s % 60);
+    return m + ':' + (sec < 10 ? '0' : '') + sec;
+  }
+
+  btn.addEventListener('click', function() {
+    if (audio.paused) {
+      audio.play();
+    } else {
+      audio.pause();
+    }
+  });
+
+  audio.addEventListener('play', function() {
+    btn.innerHTML = '&#9646;&#9646;';
+    btn.setAttribute('aria-label', 'Pause');
+  });
+
+  audio.addEventListener('pause', function() {
+    btn.innerHTML = '&#9654;';
+    btn.setAttribute('aria-label', 'Play');
+  });
+
+  audio.addEventListener('timeupdate', function() {
+    var dur = audio.duration || 0;
+    var pct = dur ? (audio.currentTime / dur) * 100 : 0;
+    fill.style.width = pct + '%';
+    time.textContent = fmt(audio.currentTime) + ' / ' + fmt(dur);
+  });
+
+  audio.addEventListener('ended', function() {
+    fill.style.width = '0%';
+  });
+
+  bar.addEventListener('click', function(e) {
+    if (audio.duration) {
+      var rect = bar.getBoundingClientRect();
+      audio.currentTime = ((e.clientX - rect.left) / rect.width) * audio.duration;
+    }
+  });
+});
+</script>
