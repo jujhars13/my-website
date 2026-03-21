@@ -28,13 +28,12 @@ There is no test suite, linter, or build step beyond Jekyll's own build.
   - `_posts/` — blog posts in `YYYY-MM-DD-slug.md` format with YAML front matter
   - `_drafts/` — unpublished drafts
   - `_data/jhsd-history.yml` — data file for the JHSD history timeline
-  - `css/custom.css` — site-specific styles (Bootstrap 3 is used via `bootstrap.min.css`)
+  - `css/custom.css` — site-specific styles (Bootstrap 5.3.6 is used via `bootstrap.min.css`)
   - `CNAME` — custom domain mapping to jujhar.com
 - **Root** — only contains this file, README.md, and .gitignore
 
 ## Key Details
 
-- Uses Bootstrap 3 for styling and jQuery 3.7.1
 - Google Analytics tracking is in `docs/_includes/footer.html`
 - New blog posts go in `docs/_posts/` following the existing naming convention
 - The `docs/_site/` directory is the built output and is gitignored
