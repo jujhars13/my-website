@@ -31,3 +31,31 @@ audio {
   width: 100%;
   min-height: 54px;
 }
+
+/* Responsive images sitewide */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Mobile improvements */
+@media (max-width: 576px) {
+  /* Add breathing room on small screens */
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  /* Scale down typing effect for narrow screens */
+  #typing-effect {
+    font-size: 18px;
+  }
+
+  /* Stack footer links vertically */
+  .footer p {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1rem;
+    align-items: center;
+  }
+}
