@@ -25,7 +25,7 @@ layout: default
     <label for="volume">Vol</label>
     <input id="volume" type="range" min="0" max="1" step="0.05" value="1" style="width: 80px;" oninput="document.getElementById('audio').volume = this.value">
     <span style="margin-left: auto;">
-      <a href="https://static.jujhar.com//mnt/kirpa/static_web_server/2026-04-04-rageshwari-kirpal-singh-bootcamp.mp3" download style="text-decoration: none;">⬇ Download MP3</a>
+      <a href="https://static.jujhar.com/2026-04-04-rageshwari-kirpal-singh-bootcamp.mp3" download style="text-decoration: none;">⬇ Download MP3</a>
     </span>
   </div>
 </div>
