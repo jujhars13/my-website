@@ -6,7 +6,7 @@ layout: default
 
 <div id="audio-player" style="max-width: 500px; margin: 2em 0; padding: 1.5em; border: 1px solid #ddd; border-radius: 8px; background: #fafafa;">
   <audio id="audio" preload="metadata">
-    <source src="https://static.jujhar.com//mnt/kirpa/static_web_server/2026-04-04-rageshwari-kirpal-singh-bootcamp.mp3" type="audio/mpeg">
+    <source src="https://static.jujhar.com/2026-04-04-rageshwari-kirpal-singh-bootcamp.mp3" type="audio/mpeg">
     Your browser does not support the audio element.
   </audio>
 
