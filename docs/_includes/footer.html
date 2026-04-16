@@ -4,8 +4,10 @@
     <a href="https://uk.linkedin.com/in/jujhar" alt="Jujhar Singh's linkedin profile">LinkedIn</a> |
     <a href='//twitter.com/#!/jujhars13' alt="Jujhar Singh's twitter account" style='text-decoration:none'><img src='/images/twitter-24x24.png' />@jujhars13</a> | 
     <a href="//stackexchange.com/users/137157">
-        <img src="//stackexchange.com/users/flair/137157.png" width="208" height="58" alt="profile for Jujhar Singh on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for Jujhar Singh on Stack Exchange, a network of free, community-driven Q&amp;A sites">
-    </a>
+        <img src="//stackexchange.com/users/flair/137157.png" style="max-width:208px; width:100%; height:auto" alt="profile for Jujhar Singh on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for Jujhar Singh on Stack Exchange, a network of free, community-driven Q&amp;A sites">
+    </a> |
+    <a href="/privacy-policy">Privacy Policy</a> |
+    <a href="/tos">Terms of Service</a>
     </p>
 </div>
 
@@ -18,4 +20,82 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create', 'UA-23579994-1', 'jujhar.com');
 ga('send', 'pageview');
 
+</script>
+
+<script>
+// Enhance native audio elements with a large, mobile-friendly custom player
+document.querySelectorAll('audio[controls]').forEach(function(audio) {
+  audio.classList.add('custom-enhanced');
+  audio.removeAttribute('controls');
+
+  var player = document.createElement('div');
+  player.className = 'audio-player';
+
+  var btn = document.createElement('button');
+  btn.className = 'play-btn';
+  btn.setAttribute('aria-label', 'Play');
+  btn.innerHTML = '&#9654;';
+
+  var track = document.createElement('div');
+  track.className = 'player-track';
+
+  var bar = document.createElement('div');
+  bar.className = 'progress-bar-container';
+  var fill = document.createElement('div');
+  fill.className = 'progress-bar-fill';
+  bar.appendChild(fill);
+
+  var time = document.createElement('div');
+  time.className = 'player-time';
+  time.textContent = '0:00 / 0:00';
+
+  track.appendChild(bar);
+  track.appendChild(time);
+  player.appendChild(btn);
+  player.appendChild(track);
+
+  audio.parentNode.insertBefore(player, audio.nextSibling);
+
+  function fmt(s) {
+    var m = Math.floor(s / 60);
+    var sec = Math.floor(s % 60);
+    return m + ':' + (sec < 10 ? '0' : '') + sec;
+  }
+
+  btn.addEventListener('click', function() {
+    if (audio.paused) {
+      audio.play();
+    } else {
+      audio.pause();
+    }
+  });
+
+  audio.addEventListener('play', function() {
+    btn.innerHTML = '&#9646;&#9646;';
+    btn.setAttribute('aria-label', 'Pause');
+  });
+
+  audio.addEventListener('pause', function() {
+    btn.innerHTML = '&#9654;';
+    btn.setAttribute('aria-label', 'Play');
+  });
+
+  audio.addEventListener('timeupdate', function() {
+    var dur = audio.duration || 0;
+    var pct = dur ? (audio.currentTime / dur) * 100 : 0;
+    fill.style.width = pct + '%';
+    time.textContent = fmt(audio.currentTime) + ' / ' + fmt(dur);
+  });
+
+  audio.addEventListener('ended', function() {
+    fill.style.width = '0%';
+  });
+
+  bar.addEventListener('click', function(e) {
+    if (audio.duration) {
+      var rect = bar.getBoundingClientRect();
+      audio.currentTime = ((e.clientX - rect.left) / rect.width) * audio.duration;
+    }
+  });
+});
 </script>
