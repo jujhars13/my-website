@@ -1,0 +1,183 @@
+---
+layout: default
+title: Vaheguru Ji Ka Khalsa, Vaheguru Ji Ki Fateh
+---
+
+<link href="https://fonts.googleapis.com/css2?family=Tiro+Gurmukhi&display=swap" rel="stylesheet">
+
+<style>
+  .vaheguru-container {
+    text-align: center;
+    padding: 2em 0;
+  }
+
+  .vaheguru-container h1 {
+    font-family: 'Tiro Gurmukhi', serif;
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 0.5em;
+  }
+
+  .vaheguru-container .transliteration {
+    font-style: italic;
+    color: #666;
+    margin-bottom: 2em;
+    font-size: 1.1em;
+  }
+
+  .tegaki-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5em;
+    margin: 2em 0;
+  }
+
+  tegaki-renderer {
+    font-size: 64px;
+    color: #1a3a5c;
+    display: block;
+    min-height: 120px;
+  }
+
+  .controls {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .controls button {
+    padding: 0.5em 1.5em;
+    border: 1px solid #1a3a5c;
+    background: #fff;
+    color: #1a3a5c;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 0.9em;
+  }
+
+  .controls button:hover {
+    background: #1a3a5c;
+    color: #fff;
+  }
+
+  .controls label {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    font-size: 0.9em;
+  }
+
+  .tegaki-loading {
+    color: #999;
+    font-style: italic;
+  }
+
+  .meaning {
+    max-width: 600px;
+    margin: 2em auto;
+    text-align: left;
+    line-height: 1.6;
+    color: #555;
+  }
+
+  .meaning dt {
+    font-weight: bold;
+    color: #333;
+    margin-top: 0.5em;
+  }
+
+  @media (max-width: 600px) {
+    tegaki-renderer {
+      font-size: 40px;
+    }
+  }
+</style>
+
+<div class="vaheguru-container">
+  <h1>ਵਾਹਿਗੁਰੂ ਜੀ ਕਾ ਖ਼ਾਲਸਾ, ਵਾਹਿਗੁਰੂ ਜੀ ਕੀ ਫ਼ਤਹਿ</h1>
+  <p class="transliteration">Vaheguru Ji Ka Khalsa, Vaheguru Ji Ki Fateh</p>
+
+  <div class="tegaki-wrapper">
+    <p class="tegaki-loading" id="tegaki-loading">Loading handwriting animation...</p>
+
+    <tegaki-renderer
+      id="tegaki-line1"
+      font="Tiro Gurmukhi"
+      text="ਵਾਹਿਗੁਰੂ ਜੀ ਕਾ ਖ਼ਾਲਸਾ"
+      speed="1.2"
+      style="display:none;"
+    ></tegaki-renderer>
+
+    <tegaki-renderer
+      id="tegaki-line2"
+      font="Tiro Gurmukhi"
+      text="ਵਾਹਿਗੁਰੂ ਜੀ ਕੀ ਫ਼ਤਹਿ"
+      speed="1.2"
+      style="display:none;"
+    ></tegaki-renderer>
+
+    <div class="controls">
+      <button id="btn-replay" title="Replay animation">Replay</button>
+      <label>
+        Speed
+        <input type="range" id="speed-slider" min="0.3" max="3" step="0.1" value="1.2">
+        <span id="speed-label">1.2x</span>
+      </label>
+    </div>
+  </div>
+
+  <div class="meaning">
+    <p>The Sikh greeting and salutation, meaning:</p>
+    <dl>
+      <dt>ਵਾਹਿਗੁਰੂ ਜੀ ਕਾ ਖ਼ਾਲਸਾ</dt>
+      <dd>The Khalsa belongs to Vaheguru (God)</dd>
+      <dt>ਵਾਹਿਗੁਰੂ ਜੀ ਕੀ ਫ਼ਤਹਿ</dt>
+      <dd>Victory belongs to Vaheguru (God)</dd>
+    </dl>
+  </div>
+</div>
+
+<script type="module">
+  import { registerTegakiElement, TegakiEngine, createBundle, registerBundle } from 'https://esm.sh/tegaki@0.11.1/wc';
+
+  const glyphData = await fetch('/fonts/tiro-gurmukhi-glyphData.json').then(r => r.json());
+
+  const bundle = createBundle({
+    family: 'Tiro Gurmukhi',
+    fontUrl: '/fonts/tiro-gurmukhi.ttf',
+    glyphData,
+    lineCap: 'round',
+    unitsPerEm: 1000,
+    ascender: 755,
+    descender: -245,
+  });
+
+  registerBundle(bundle);
+  registerTegakiElement();
+
+  const loading = document.getElementById('tegaki-loading');
+  const line1 = document.getElementById('tegaki-line1');
+  const line2 = document.getElementById('tegaki-line2');
+
+  loading.style.display = 'none';
+  line1.style.display = 'block';
+  line2.style.display = 'block';
+
+  const speedSlider = document.getElementById('speed-slider');
+  const speedLabel = document.getElementById('speed-label');
+
+  speedSlider.addEventListener('input', () => {
+    const speed = speedSlider.value;
+    speedLabel.textContent = speed + 'x';
+    line1.setAttribute('speed', speed);
+    line2.setAttribute('speed', speed);
+  });
+
+  document.getElementById('btn-replay').addEventListener('click', () => {
+    line1.restart();
+    line2.restart();
+  });
+</script>
