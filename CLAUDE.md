@@ -4,36 +4,37 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Personal website for jujhar.com — a Jekyll static site deployed via GitHub Pages from the `docs/` directory on the `master` branch. Pushes to `master` trigger automatic deployment.
+Personal website for jujhar.com — an [Eleventy (11ty)](https://www.11ty.dev/) static site deployed to GitHub Pages via GitHub Actions on every push to `master`.
 
 ## Local Development
 
 ```bash
-# Serve locally at localhost:4000 with live rebuild
-docker run -it --rm \
-  -v ${PWD}/docs:/srv/jekyll \
-  -p 4000:4000 \
-  jekyll/jekyll \
-  jekyll serve --watch
+npm install         # one-time
+npm run dev         # serve at http://localhost:4000 with live reload
+npm run build       # one-shot build into _site/
 ```
 
-There is no test suite, linter, or build step beyond Jekyll's own build.
+Requires Node (see `.nvmrc`). There is no test suite or linter — only the 11ty build.
 
 ## Architecture
 
-- **`docs/`** — Jekyll source root (GitHub Pages serves from this directory)
-  - `_config.yaml` — Jekyll config (kramdown markdown, rouge highlighting, permalink: pretty)
+- **`src/`** — site source root
   - `_layouts/default.html` — single layout wrapping all pages
-  - `_includes/head.html`, `_includes/footer.html` — shared HTML head and footer partials
-  - `_posts/` — blog posts in `YYYY-MM-DD-slug.md` format with YAML front matter
-  - `_drafts/` — unpublished drafts
-  - `_data/jhsd-history.yml` — data file for the JHSD history timeline
-  - `css/custom.css` — site-specific styles (Bootstrap 5.3.6 is used via `bootstrap.min.css`)
+  - `_includes/head.html`, `_includes/footer.html` — shared head and footer partials (footer hosts the GA tracking and the audio-player enhancement script)
+  - `_posts/` — blog posts in `YYYY-MM-DD-slug.md` format
+  - `_posts/_posts.11tydata.js` — directory data: applies `tags: post`, `layout: default`, the `/YYYY/MM/DD/slug/` permalink, and computes a Title-Cased title from the filename when frontmatter doesn't set one
+  - `_data/jhsdHistory.yml` — data file for the JHSD history timeline (referenced as `jhsdHistory` in templates)
+  - `css/custom.css` — site-specific styles (Bootstrap 5.3.6 via `bootstrap.min.css`)
   - `CNAME` — custom domain mapping to jujhar.com
-- **Root** — only contains this file, README.md, and .gitignore
+  - `sitemap.liquid` — generates `/sitemap.xml` at build time
+  - `jl/`, `tests/`, `blank/`, `efk/`, `404.html`, `googleb8e00ca3c029d7f6.html` — standalone HTML areas; `.eleventy.js` adds them to `ignores` so they are passthrough-copied without Liquid processing (the AngularJS app under `jl/Bikes/Site/` would otherwise collide with Liquid's `{{ }}` syntax)
+- **`.eleventy.js`** — config: input `src/`, output `_site/`, Liquid as the template engine for `.html`/`.md`/`.liquid`, layout alias `default → default.html`, passthrough copy lists
+- **`.github/workflows/deploy.yml`** — builds with Node and publishes via `actions/deploy-pages`
+- **`_site/`** — build output, gitignored
 
-## Key Details
+## Key details
 
-- Google Analytics tracking is in `docs/_includes/footer.html`
-- New blog posts go in `docs/_posts/` following the existing naming convention
-- The `docs/_site/` directory is the built output and is gitignored
+- The GitHub Pages source must be set to **GitHub Actions** in repo settings (not "Deploy from a branch")
+- Posts use Liquid templating; `markdownTemplateEngine: 'liquid'` lets `.md` files use `{% %}` and `{{ }}` tags
+- New blog posts go in `src/_posts/` following the existing naming convention; titles are auto-derived from the filename slug unless `title:` is set in frontmatter
+- The `section: music` frontmatter flag puts a post in the Music list on the homepage

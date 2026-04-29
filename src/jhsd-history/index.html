@@ -12,21 +12,21 @@ cachebuster: 5
 
     <link href='//fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400,700' rel='stylesheet' type='text/css'>
 
-    <link rel="stylesheet" href="css/reset.css?_cache={{ page.cachebuster }}">
+    <link rel="stylesheet" href="css/reset.css?_cache={{ cachebuster }}">
     <!-- CSS reset -->
-    <link rel="stylesheet" href="css/style.css?_cache={{ page.cachebuster }}">
+    <link rel="stylesheet" href="css/style.css?_cache={{ cachebuster }}">
     <!-- Resource style -->
-    <script src="js/modernizr.js?_cache={{ page.cachebuster }}"></script>
+    <script src="js/modernizr.js?_cache={{ cachebuster }}"></script>
     <!-- Modernizr -->
 
-    <title>{{ page.title }}</title>
+    <title>{{ title }}</title>
 </head>
 <body>
 <header>
-    <h1>{{ page.title }}</h1>
+    <h1>{{ title }}</h1>
 </header>
 <section id="cd-timeline" class="cd-container">
-    {% for event in site.data.jhsd-history %}
+    {% for event in jhsdHistory %}
     <div class="cd-timeline-block">
         <div class="cd-timeline-img cd-picture">
             <img src="img/cd-icon-picture.svg" alt="Picture">
@@ -57,6 +57,6 @@ cachebuster: 5
 </section>
 
 
-<script src="js/main.js?_cache={{ page.cachebuster }}"></script>
+<script src="js/main.js?_cache={{ cachebuster }}"></script>
 </body>
 </html>

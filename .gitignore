@@ -4,9 +4,11 @@
 *.swo
 .idea/
 .history/
-docs/_site
-docs/.sass-cache/
-docs/.jekyll-metadata
-docs/node_modules
-docs/.jekyll-cache
-node_modules
+
+# build output and tooling
+_site/
+node_modules/
+.cache/
+
+# stale Jekyll artifact left behind by the 11ty migration
+.jekyll-cache/
