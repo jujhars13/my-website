@@ -7,6 +7,10 @@ section: music
 
 Shabad: [Too Beant Ko Virla Janai Vadhans on iGurbani](https://www.igurbani.com/shabad/d68i?verse=up5p)
 
+PDFs:
+- [Vadhans raag info](/images/posts/2026-04-28-bhai-kultar-singh-workshop/vadhans-info.pdf)
+- [Vadhans shabad](/images/posts/2026-04-28-bhai-kultar-singh-workshop/vadhans-sabd.pdf)
+
 <div id="audio-player" style="max-width: 500px; margin: 2em 0; padding: 1.5em; border: 1px solid #ddd; border-radius: 8px; background: #fafafa;">
   <audio id="audio" preload="metadata">
     <source src="https://static.jujhar.com/music/2026-04-28-bhai-kultar-singh-workshop-shaheedi-bunga-leicester-too-beant-ko-virla-janai-vadhans.mp3" type="audio/mpeg">
