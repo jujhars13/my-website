@@ -1,5 +1,6 @@
 ---
 layout: default
+section: music
 ---
 
 ### 2026-04-04 Rageshwari Kirpal Singh Bootcamp

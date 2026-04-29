@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Install the latest Docker version on Amazon Linux 2023
+# Install the latest Docker version on Amazon Linux 2023
 
 Why does AmazonLinux 2023 only ship with an ancient version of Docker in their Linux repos?  Wouldn't like half their workloads run on Docker?
 
