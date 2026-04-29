@@ -1,7 +1,8 @@
 ---
 layout: default
+section: music
 ---
 
-### GSA Beginners Class lessons
+### Beginners Class lessons
 
-[Click here for GSA Beginners Class lessons](https://github.com/jujhars13/gurmatsangeet/tree/master/basics)
+[Click here for Beginners Class lessons](https://github.com/jujhars13/gurmatsangeet/tree/master/basics)
