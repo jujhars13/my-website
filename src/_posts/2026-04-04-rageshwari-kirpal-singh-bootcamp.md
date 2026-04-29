@@ -3,7 +3,7 @@ layout: default
 section: music
 ---
 
-### 2026-04-04 Rageshwari Kirpal Singh Bootcamp
+## 2026-04-04 Rageshwari Kirpal Singh Bootcamp
 
 <div id="audio-player" style="max-width: 500px; margin: 2em 0; padding: 1.5em; border: 1px solid #ddd; border-radius: 8px; background: #fafafa;">
   <audio id="audio" preload="metadata">
