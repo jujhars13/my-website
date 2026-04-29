@@ -1,24 +1,24 @@
 # Jujhar.com
 
-My website [https://jujhar.com]()
+My website [https://jujhar.com](https://jujhar.com)
+
+Built with [Eleventy (11ty)](https://www.11ty.dev/) — source in `src/`, build output in `_site/`.
 
 ## Local Development
 
 ```bash
-# to server on localhost:4000 and continuously transpile output
-docker run -it --rm \
-  -v ${PWD}/docs:/srv/jekyll \
-  -p 4000:4000 \
-  jekyll/jekyll \
-  jekyll serve --watch
-
-# OPTIONAL use the awesome `reload` which auto-refreshes your browser on change using websockets
-# `npm install -g reload`
-(cd docs/_site && reload -e "html|js|css|json")
+npm install
+npm run dev      # http://localhost:4000 with live reload
 ```
 
-## Build and deploy
+## Build
 
-This site is a [Jekyll static site](https://jekyllrb.com/) and will be auto deployed via Github pages upon commit to master.
+```bash
+npm run build    # one-shot build into _site/
+```
 
-If you're not publishing to Github pages use this command to one time build assets into `_site` and then publish to a S3 static bucket or old school server.
+## Deploy
+
+Pushes to `master` trigger `.github/workflows/deploy.yml`, which builds the site and publishes it to GitHub Pages. The `_site/` directory can also be uploaded to any static host (S3, etc.) if you skip the GH Pages workflow.
+
+> **GitHub Pages config:** the repo's Pages source must be set to **GitHub Actions** (not "Deploy from a branch").

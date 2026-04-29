@@ -1,0 +1,13 @@
+{
+  "name": "jujhar-com",
+  "version": "1.0.0",
+  "description": "jujhar.com personal website",
+  "private": true,
+  "scripts": {
+    "build": "eleventy",
+    "dev": "eleventy --serve --port=4000"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}
