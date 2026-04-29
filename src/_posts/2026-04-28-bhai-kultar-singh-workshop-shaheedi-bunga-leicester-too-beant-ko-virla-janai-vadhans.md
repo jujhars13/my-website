@@ -5,6 +5,8 @@ section: music
 
 ## 2026-04-28 Bhai Kultar Singh Workshop — Shaheedi Bunga Leicester — Too Beant Ko Virla Janai Vadhans
 
+Shabad: [Too Beant Ko Virla Janai Vadhans on iGurbani](https://www.igurbani.com/shabad/d68i?verse=up5p)
+
 <div id="audio-player" style="max-width: 500px; margin: 2em 0; padding: 1.5em; border: 1px solid #ddd; border-radius: 8px; background: #fafafa;">
   <audio id="audio" preload="metadata">
     <source src="https://static.jujhar.com/music/2026-04-28-bhai-kultar-singh-workshop-shaheedi-bunga-leicester-too-beant-ko-virla-janai-vadhans.mp3" type="audio/mpeg">
@@ -72,3 +74,25 @@ section: music
     seekBar.value = 0;
   });
 </script>
+
+### Notes from the workshop
+
+<figure style="margin: 1.5em 0;">
+  <img src="/images/posts/2026-04-28-bhai-kultar-singh-workshop/01_classification.jpg" alt="Classification" loading="lazy" style="max-width: 100%; height: auto;">
+  <figcaption style="font-size: 0.9em; color: #666;">Classification</figcaption>
+</figure>
+
+<figure style="margin: 1.5em 0;">
+  <img src="/images/posts/2026-04-28-bhai-kultar-singh-workshop/02_attributes.jpg" alt="Attributes" loading="lazy" style="max-width: 100%; height: auto;">
+  <figcaption style="font-size: 0.9em; color: #666;">Attributes</figcaption>
+</figure>
+
+<figure style="margin: 1.5em 0;">
+  <img src="/images/posts/2026-04-28-bhai-kultar-singh-workshop/03_antra.jpg" alt="Antra" loading="lazy" style="max-width: 100%; height: auto;">
+  <figcaption style="font-size: 0.9em; color: #666;">Antra</figcaption>
+</figure>
+
+<figure style="margin: 1.5em 0;">
+  <img src="/images/posts/2026-04-28-bhai-kultar-singh-workshop/04_asthayee.jpg" alt="Asthayee" loading="lazy" style="max-width: 100%; height: auto;">
+  <figcaption style="font-size: 0.9em; color: #666;">Asthayee</figcaption>
+</figure>
