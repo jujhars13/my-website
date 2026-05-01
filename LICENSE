@@ -1,0 +1,23 @@
+# License
+
+Copyright (C) 2026 Jujhar Singh
+
+This repository is dual-licensed:
+
+- **Source code** — templates, JavaScript, CSS, build configuration, and any
+  other software in this repository — is licensed under the **GNU General
+  Public License v3.0 or later (GPL-3.0-or-later)**. See [LICENSE-CODE](LICENSE-CODE).
+
+- **Content** — blog posts under `src/_posts/`, written prose, images, audio,
+  and other creative works — is licensed under the **Creative Commons
+  Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)** license.
+  See [LICENSE-CONTENT](LICENSE-CONTENT).
+
+Third-party files retain their original licenses (for example,
+`src/css/bootstrap.min.css` is licensed under the MIT License by the Bootstrap
+Authors, and the AngularJS application under `src/jl/` carries its own
+upstream licensing).
+
+Both licenses are strong copyleft: derivative works must be distributed under
+the same license. Both licenses are provided without warranty of any kind and
+without indemnity — see the respective license texts for the full disclaimers.
