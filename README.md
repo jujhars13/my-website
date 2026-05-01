@@ -23,7 +23,7 @@ Pushes to `main` trigger `.github/workflows/deploy.yml`, which builds the site a
 
 ## License
 
-Copyright (C) 2026 Jujhar Singh. Dual-licensed:
+Copyleft (C) 2026 Jujhar Singh. Dual-licensed:
 
 - **Source code** (templates, JavaScript, CSS, build config) — [GPL-3.0-or-later](LICENSE-CODE)
 - **Content** (blog posts, prose, images, audio) — [CC BY-SA 4.0](LICENSE-CONTENT)
