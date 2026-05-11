@@ -3,7 +3,7 @@ layout: default
 section: music
 ---
 
-## 2026-05-11 Kirpal Singh — Aliyha Bilaval — Dhiro Dekh Tumarai Ranga
+## 2026-05-11 Ustaad Kirpal Singh — Aliyha Bilaval — Dhiro Dekh Tumarai Ranga
 
 Shabad: [Dhiro Dekh Tumarai Ranga on iGurbani](https://www.igurbani.com/shabad/nrvd?verse=f8k7)
 
