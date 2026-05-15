@@ -9,4 +9,4 @@ section: music
 
 <p><a href="https://static.jujhar.com/music/2026-05-02-asa-kee-vaar-bhai-kultar-singh-gnnsj-bham.m4a" download>⬇ Download</a></p>
 
-Thanks to Hardeep Singh West Brom for the recording.
+Thanks to Shromini 108 Bhai Sahib Bhai Hardeep Singh West-Brom Vale for the recording.
