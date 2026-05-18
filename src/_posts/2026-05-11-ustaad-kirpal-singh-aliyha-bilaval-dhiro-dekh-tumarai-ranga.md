@@ -25,6 +25,12 @@ Shabad: [Dhiro Dekh Tumarai Ranga on iGurbani](https://www.igurbani.com/shabad/n
 
 <p><a href="https://static.jujhar.com/music/2026-05-11-kirpal-singh-aliyha-bilaval-dhiro-dekh-tumarai-ranga/sabd-with-lehkari.mp3" download>⬇ Download MP3</a></p>
 
+### 2026-05-14 Full lesson with bonus bandishes
+
+<audio controls preload="metadata" src="https://static.jujhar.com/music/2026-05-16-aliya-bilaval-dhero-dekh-and-two-bonus-bandishes.mp3"></audio>
+
+<p><a href="https://static.jujhar.com/music/2026-05-16-aliya-bilaval-dhero-dekh-and-two-bonus-bandishes.mp3" download>⬇ Download MP3</a></p>
+
 ### Notes from the workshop
 
 <!-- TODO: add notes -->
