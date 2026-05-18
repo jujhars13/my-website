@@ -15,7 +15,7 @@
 
 <script>
 // Enhance native audio elements with a large, mobile-friendly custom player
-document.querySelectorAll('audio[controls]').forEach(function(audio) {
+document.querySelectorAll('audio[controls]').forEach((audio) => {
   audio.classList.add('custom-enhanced');
   audio.removeAttribute('controls');
 
@@ -53,7 +53,7 @@ document.querySelectorAll('audio[controls]').forEach(function(audio) {
     return m + ':' + (sec < 10 ? '0' : '') + sec;
   }
 
-  btn.addEventListener('click', function() {
+  btn.addEventListener('click', () => {
     if (audio.paused) {
       audio.play();
     } else {
@@ -61,28 +61,28 @@ document.querySelectorAll('audio[controls]').forEach(function(audio) {
     }
   });
 
-  audio.addEventListener('play', function() {
+  audio.addEventListener('play', () => {
     btn.innerHTML = '&#9646;&#9646;';
     btn.setAttribute('aria-label', 'Pause');
   });
 
-  audio.addEventListener('pause', function() {
+  audio.addEventListener('pause', () => {
     btn.innerHTML = '&#9654;';
     btn.setAttribute('aria-label', 'Play');
   });
 
-  audio.addEventListener('timeupdate', function() {
+  audio.addEventListener('timeupdate', () => {
     var dur = audio.duration || 0;
     var pct = dur ? (audio.currentTime / dur) * 100 : 0;
     fill.style.width = pct + '%';
     time.textContent = fmt(audio.currentTime) + ' / ' + fmt(dur);
   });
 
-  audio.addEventListener('ended', function() {
+  audio.addEventListener('ended', () => {
     fill.style.width = '0%';
   });
 
-  bar.addEventListener('click', function(e) {
+  bar.addEventListener('click', (e) => {
     if (audio.duration) {
       var rect = bar.getBoundingClientRect();
       audio.currentTime = ((e.clientX - rect.left) / rect.width) * audio.duration;
