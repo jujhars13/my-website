@@ -31,6 +31,5 @@ Shabad: [Dhiro Dekh Tumarai Ranga on iGurbani](https://www.igurbani.com/shabad/n
 
 <p><a href="https://static.jujhar.com/music/2026-05-16-aliya-bilaval-dhero-dekh-and-two-bonus-bandishes.mp3" download>⬇ Download MP3</a></p>
 
-### Notes from the workshop
 
 <!-- TODO: add notes -->
