@@ -34,7 +34,7 @@ section: music
 
 ### Broken Down
 
-Thanks to Shromini 108 Bhai Sahib Bhai Hardeep Singh West-Brom Vale breaking them down
+Thanks to Hardeep Singh West-Brom Vale breaking them down
 
 - [01 Intro and Sa Abhyaas](https://static.jujhar.com/music/2026-05-03-keerat-singh-gujari-workshop/260503%2001%20Intro%20and%20Sa%20Abhyaas.m4a)
 - [02 Ang vs Thaath](https://static.jujhar.com/music/2026-05-03-keerat-singh-gujari-workshop/260503%2002%20Ang%20vs%20Thaath.m4a)
