@@ -5,6 +5,8 @@ section: music
 
 ## 2026-05-03 Dr Kirit Singh Gurjari Workshop
 
+### Full Recording
+
 <div id="audio-player" style="max-width: 500px; margin: 2em 0; padding: 1.5em; border: 1px solid #ddd; border-radius: 8px; background: #fafafa;">
   <audio id="audio" preload="metadata">
     <source src="https://static.jujhar.com/music/2026-05-03-keerat-singh-gujari-workshop/2026-05-03-keerat-singh-gujari-workshop.mp3" type="audio/mpeg">
@@ -32,7 +34,7 @@ section: music
 
 ### Broken Down
 
-Thanks to Shromini 108 Bhai Sahib Bhai Hardeep Singh West-Brom Vale for the recording.
+Thanks to Shromini 108 Bhai Sahib Bhai Hardeep Singh West-Brom Vale breaking them down
 
 - [01 Intro and Sa Abhyaas](https://static.jujhar.com/music/2026-05-03-keerat-singh-gujari-workshop/260503%2001%20Intro%20and%20Sa%20Abhyaas.m4a)
 - [02 Ang vs Thaath](https://static.jujhar.com/music/2026-05-03-keerat-singh-gujari-workshop/260503%2002%20Ang%20vs%20Thaath.m4a)
