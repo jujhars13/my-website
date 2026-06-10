@@ -22,10 +22,20 @@ document.querySelectorAll('audio[controls]').forEach((audio) => {
   var player = document.createElement('div');
   player.className = 'audio-player';
 
+  var back = document.createElement('button');
+  back.className = 'skip-btn skip-back';
+  back.setAttribute('aria-label', 'Rewind 15 seconds');
+  back.innerHTML = '&#8634;<span class="skip-label">15</span>';
+
   var btn = document.createElement('button');
   btn.className = 'play-btn';
   btn.setAttribute('aria-label', 'Play');
   btn.innerHTML = '&#9654;';
+
+  var fwd = document.createElement('button');
+  fwd.className = 'skip-btn skip-fwd';
+  fwd.setAttribute('aria-label', 'Forward 15 seconds');
+  fwd.innerHTML = '&#8635;<span class="skip-label">15</span>';
 
   var track = document.createElement('div');
   track.className = 'player-track';
@@ -34,7 +44,10 @@ document.querySelectorAll('audio[controls]').forEach((audio) => {
   bar.className = 'progress-bar-container';
   var fill = document.createElement('div');
   fill.className = 'progress-bar-fill';
+  var thumb = document.createElement('div');
+  thumb.className = 'progress-bar-thumb';
   bar.appendChild(fill);
+  bar.appendChild(thumb);
 
   var time = document.createElement('div');
   time.className = 'player-time';
@@ -42,7 +55,9 @@ document.querySelectorAll('audio[controls]').forEach((audio) => {
 
   track.appendChild(bar);
   track.appendChild(time);
+  player.appendChild(back);
   player.appendChild(btn);
+  player.appendChild(fwd);
   player.appendChild(track);
 
   audio.parentNode.insertBefore(player, audio.nextSibling);
@@ -61,6 +76,14 @@ document.querySelectorAll('audio[controls]').forEach((audio) => {
     }
   });
 
+  function skip(seconds) {
+    var dur = audio.duration || 0;
+    audio.currentTime = Math.max(0, Math.min(dur, audio.currentTime + seconds));
+  }
+
+  back.addEventListener('click', () => skip(-15));
+  fwd.addEventListener('click', () => skip(15));
+
   audio.addEventListener('play', () => {
     btn.innerHTML = '&#9646;&#9646;';
     btn.setAttribute('aria-label', 'Pause');
@@ -71,22 +94,53 @@ document.querySelectorAll('audio[controls]').forEach((audio) => {
     btn.setAttribute('aria-label', 'Play');
   });
 
+  function render(pct) {
+    fill.style.width = pct + '%';
+    thumb.style.left = pct + '%';
+  }
+
   audio.addEventListener('timeupdate', () => {
     var dur = audio.duration || 0;
     var pct = dur ? (audio.currentTime / dur) * 100 : 0;
-    fill.style.width = pct + '%';
+    if (!dragging) render(pct);
     time.textContent = fmt(audio.currentTime) + ' / ' + fmt(dur);
   });
 
   audio.addEventListener('ended', () => {
-    fill.style.width = '0%';
+    render(0);
   });
 
-  bar.addEventListener('click', (e) => {
-    if (audio.duration) {
-      var rect = bar.getBoundingClientRect();
-      audio.currentTime = ((e.clientX - rect.left) / rect.width) * audio.duration;
-    }
+  // Drag-to-scrub: pointer events cover mouse + touch with a single code path.
+  // setPointerCapture keeps the gesture bound to the bar even if the finger
+  // strays off it, and CSS touch-action:none stops the page from scrolling
+  // while scrubbing — both essential for a usable mobile slider.
+  var dragging = false;
+
+  function seekToClientX(clientX) {
+    if (!audio.duration) return;
+    var rect = bar.getBoundingClientRect();
+    var ratio = Math.max(0, Math.min(1, (clientX - rect.left) / rect.width));
+    audio.currentTime = ratio * audio.duration;
+    render(ratio * 100);
+  }
+
+  bar.addEventListener('pointerdown', (e) => {
+    dragging = true;
+    bar.setPointerCapture(e.pointerId);
+    seekToClientX(e.clientX);
   });
+
+  bar.addEventListener('pointermove', (e) => {
+    if (dragging) seekToClientX(e.clientX);
+  });
+
+  function endDrag(e) {
+    if (!dragging) return;
+    dragging = false;
+    bar.releasePointerCapture(e.pointerId);
+  }
+
+  bar.addEventListener('pointerup', endDrag);
+  bar.addEventListener('pointercancel', endDrag);
 });
 </script>
