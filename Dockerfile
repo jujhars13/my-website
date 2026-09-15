@@ -10,4 +10,4 @@ RUN npx @11ty/eleventy
 FROM nginx:1.29-alpine
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 COPY --from=build /app/_site /usr/share/nginx/html
-EXPOSE 8080
+EXPOSE 80
