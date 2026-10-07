@@ -180,3 +180,81 @@ img {
     order: 2;
   }
 }
+
+/* Printable practice cards (src/_posts/2026-10-07-practice-cards.md) */
+.practice-card {
+  border: 2px dashed #888;
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1.5rem;
+  max-width: 180mm;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+.practice-card-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.5rem 1.5rem;
+}
+.practice-card-fields {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.practice-card-benefits {
+  font-size: 0.9em;
+  font-style: italic;
+}
+.practice-card-blank-wide {
+  width: 55mm !important;
+}
+.practice-card-blank {
+  display: inline-block;
+  width: 35mm;
+  border-bottom: 1px solid #000;
+}
+.practice-card-steps {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1.5rem;
+  padding-left: 1.25rem;
+}
+.practice-card-days {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+}
+.practice-card-day {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.85rem;
+}
+.print-only { display: none; }
+.practice-card-box {
+  width: 6mm;
+  height: 6mm;
+  border: 1.5px solid #000;
+  border-radius: 2px;
+  margin-bottom: 2px;
+}
+
+@media print {
+  .header, .footer, hr, .no-print { display: none !important; }
+  .practice-card a::after { content: " (" attr(href) ")"; font-size: 0.8em; word-break: break-all; }
+  .practice-card a { color: #000; text-decoration: none; }
+  /* Three copies of each card per A4 page */
+  .print-only { display: block; }
+  @page { margin: 10mm; }
+  .marketing:has(.practice-card-set) > :not(.practice-card-set) { display: none; }
+  .container:has(.practice-card-set) { max-width: none; padding: 0; }
+  .practice-card { max-width: none; padding: 0.5rem 1rem; margin: 0 0 6mm; font-size: 0.9rem; }
+  .practice-card h4 { font-size: 1.2rem; margin-bottom: 0.25rem; }
+  .practice-card p, .practice-card-steps { margin-bottom: 0.4rem; }
+  .practice-card-set { break-after: page; page-break-after: always; }
+  .practice-card-set:last-child { break-after: auto; page-break-after: auto; }
+}

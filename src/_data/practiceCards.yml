@@ -1,0 +1,23 @@
+# Printable practice cards rendered by src/_posts/2026-10-07-practice-cards.md
+# Mandra (lower octave) notes use a dot below, e.g. Ṇ Ḍ P̣ Ṃ.
+# Total minutes per card are summed from `steps`, so only edit the step durations.
+- number: 0
+  name: Kharaj Riyaaz
+  intro: >-
+    Set your Sa to B using the
+    <a href="https://www.youtube.com/watch?v=1rgklrhQyws">B drone</a>,
+    then practice going down from Sa to mandra (lower octave) Ma, holding each note.
+  benefits: >-
+    Strengthens and deepens the lower register, builds breath control and
+    stamina through long holds, steadies your sur (pitch), and widens your range.
+  steps:
+    - note: S
+      minutes: 5
+    - note: "Ṇ"
+      minutes: 3
+    - note: "Ḍ"
+      minutes: 3
+    - note: "P̣"
+      minutes: 3
+    - note: "Ṃ"
+      minutes: 3

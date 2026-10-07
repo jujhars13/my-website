@@ -38,3 +38,4 @@ Requires Node (see `.nvmrc`). There is no test suite or linter — only the 11ty
 - Posts use Liquid templating; `markdownTemplateEngine: 'liquid'` lets `.md` files use `{% %}` and `{{ }}` tags
 - New blog posts go in `src/_posts/` following the existing naming convention; titles are auto-derived from the filename slug unless `title:` is set in frontmatter
 - The `section: music` frontmatter flag puts a post in the Music list on the homepage
+- Adding `subsection: beginners` (alongside `section: music`) moves the post into the Beginners sub-list under Music things

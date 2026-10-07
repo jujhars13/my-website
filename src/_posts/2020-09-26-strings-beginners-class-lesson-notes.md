@@ -1,6 +1,7 @@
 ---
 layout: default
 section: music
+subsection: beginners
 ---
 
 # Strings Beginners Class lessons

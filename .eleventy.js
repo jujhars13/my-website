@@ -1,4 +1,9 @@
+const yaml = require("js-yaml");
+
 module.exports = function (eleventyConfig) {
+  // Eleventy 3 only reads .json/.js data files natively; register YAML for src/_data/*.yml
+  eleventyConfig.addDataExtension("yml,yaml", (contents) => yaml.load(contents));
+
   // Asset directories — copy verbatim
   [
     "src/css",
