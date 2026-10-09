@@ -7,11 +7,11 @@ section: music
 
 Sabd: [Kavan Sanjog Milo Prabh Apanae on iGurbani](https://www.igurbani.com/shabad/d7t1?verse=tlnf)
 
-<audio controls preload="metadata" src="https://static.jujhar.com/music/2026-05-11-kirpal-singh-aliyha-bilaval/2026-09-19-alihya-bilaval-kavan-sanjog-milo-prabh-apanae-jaitaal.mp3"></audio>
+<p>2026-09-19<audio controls preload="metadata" src="https://static.jujhar.com/music/2026-05-11-kirpal-singh-aliyha-bilaval/2026-09-19-alihya-bilaval-kavan-sanjog-milo-prabh-apanae-jaitaal.mp3"></audio></p>
 
 <p><a href="https://static.jujhar.com/music/2026-05-11-kirpal-singh-aliyha-bilaval/2026-09-19-alihya-bilaval-kavan-sanjog-milo-prabh-apanae-jaitaal.mp3" download>⬇ Download MP3</a></p>
 
-<audio controls preload="metadata" src="https://static.jujhar.com/music/2026-05-11-kirpal-singh-aliyha-bilaval/2026-10-03-kavan-sanjog-jaitaal-aliya-bilaval.mp3"></audio>
+<p>2026-05-11<audio controls preload="metadata" src="https://static.jujhar.com/music/2026-05-11-kirpal-singh-aliyha-bilaval/2026-10-03-kavan-sanjog-jaitaal-aliya-bilaval.mp3"></audio></p>
 
 <p><a href="https://static.jujhar.com/music/2026-05-11-kirpal-singh-aliyha-bilaval/2026-10-03-kavan-sanjog-jaitaal-aliya-bilaval.mp3" download>⬇ Download MP3</a></p>
 
